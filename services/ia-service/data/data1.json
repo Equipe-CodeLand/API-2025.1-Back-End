@@ -1,0 +1,972 @@
+[
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de onboarding e qual sua importância?",
+        "resposta": "O onboarding é o processo de integração de novos colaboradores na empresa. Ele inclui treinamentos, apresentação da cultura organizacional, e alinhamento de expectativas. É importante para reduzir o tempo de adaptação, aumentar a produtividade e melhorar a retenção de talentos."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "Como funciona a avaliação de desempenho em uma empresa?",
+        "resposta": "A avaliação de desempenho é um processo sistemático para analisar o desempenho dos colaboradores em relação às metas e competências esperadas. Pode incluir feedbacks, indicadores quantitativos e qualitativos, e é usada para identificar áreas de melhoria e reconhecer bons desempenhos."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é turnover e como ele pode ser reduzido?",
+        "resposta": "Turnover é a taxa de rotatividade de funcionários em uma empresa. Pode ser reduzido com boas práticas de gestão, como oferecer planos de carreira, benefícios atrativos, clima organizacional positivo e programas de reconhecimento."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um plano de sucessão e por que é importante?",
+        "resposta": "Um plano de sucessão é uma estratégia para identificar e preparar colaboradores para assumir cargos-chave no futuro. É importante para garantir a continuidade dos negócios e reduzir riscos associados à saída de líderes."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "Como a diversidade e inclusão impactam o ambiente de trabalho?",
+        "resposta": "A diversidade e inclusão promovem um ambiente mais inovador e criativo, além de melhorar a satisfação dos colaboradores. Empresas com equipes diversas tendem a ter melhor desempenho financeiro e maior adaptabilidade às mudanças do mercado."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "Quais são os desafios na implementação de um sistema ERP?",
+        "resposta": "Os desafios incluem alto custo inicial, resistência à mudança por parte dos colaboradores, necessidade de treinamento, integração com sistemas legados e garantia de que o ERP atenda às necessidades específicas da empresa."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "Como escolher o melhor sistema ERP para uma empresa?",
+        "resposta": "Para escolher o melhor ERP, é necessário analisar o tamanho da empresa, setor de atuação, necessidades específicas, orçamento disponível e a escalabilidade do sistema. Também é importante avaliar a reputação do fornecedor e o suporte oferecido."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é customização de um sistema ERP e quando ela é necessária?",
+        "resposta": "Customização é a adaptação do ERP para atender às necessidades específicas da empresa. É necessária quando os processos da empresa não se alinham completamente com as funcionalidades padrão do sistema, mas deve ser feita com cuidado para evitar complexidades desnecessárias."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "Como um ERP pode melhorar a gestão de estoques?",
+        "resposta": "Um ERP melhora a gestão de estoques ao fornecer visibilidade em tempo real dos níveis de estoque, automatizar processos de reposição, reduzir excessos e faltas, e integrar dados de compras, vendas e produção."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "Qual é o papel do ERP na gestão de relacionamento com clientes (CRM)?",
+        "resposta": "O ERP integra dados de CRM para fornecer uma visão completa do histórico de interações com clientes, preferências e necessidades. Isso permite personalizar o atendimento, melhorar a satisfação do cliente e aumentar as vendas."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é DevOps e como ele beneficia o desenvolvimento de software?",
+        "resposta": "DevOps é uma cultura e conjunto de práticas que integram desenvolvimento e operações para acelerar o ciclo de vida do software. Beneficia as empresas ao promover colaboração, automação, entrega contínua e maior qualidade no desenvolvimento."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um banco de dados relacional e como ele funciona?",
+        "resposta": "Um banco de dados relacional armazena dados em tabelas relacionadas entre si. Ele usa linguagem SQL para consultas e operações, garantindo integridade, consistência e eficiência no armazenamento e recuperação de informações."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "Quais são as principais tendências em segurança da informação para 2024?",
+        "resposta": "As principais tendências incluem o uso de inteligência artificial para detecção de ameaças, adoção de zero trust architecture, aumento da proteção de dados na nuvem e maior foco em conformidade com regulamentações como LGPD e GDPR."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é machine learning e como ele pode ser aplicado em empresas?",
+        "resposta": "Machine learning é um subcampo da inteligência artificial que permite que sistemas aprendam com dados e melhorem seu desempenho sem programação explícita. Pode ser aplicado em previsão de demanda, automação de processos, análise de sentimentos e detecção de fraudes."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um data center e qual sua importância para empresas de TI?",
+        "resposta": "Um data center é uma instalação física que abriga servidores, sistemas de armazenamento e infraestrutura de rede. É essencial para garantir a disponibilidade, segurança e desempenho dos dados e aplicações de uma empresa."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um diagrama de fluxo de trabalho e como ele ajuda na gestão de processos?",
+        "resposta": "Um diagrama de fluxo de trabalho é uma representação visual das etapas de um processo. Ele ajuda a identificar gargalos, melhorar a eficiência e facilitar a comunicação entre equipes, garantindo que todos entendam como o processo funciona."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "Quais são as melhores ferramentas para gerenciar fluxos de trabalho?",
+        "resposta": "Algumas das melhores ferramentas incluem Trello, Asana, Jira, Microsoft Power Automate e Zapier. Elas permitem automatizar tarefas, monitorar progresso e colaborar em equipe de forma eficiente."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "Como a automação de fluxos de trabalho pode beneficiar uma empresa?",
+        "resposta": "A automação reduz erros humanos, acelera processos, diminui custos operacionais e libera os colaboradores para focar em tarefas estratégicas. Também melhora a consistência e a qualidade dos resultados."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é BPM (Business Process Management) e como ele se relaciona com fluxos de trabalho?",
+        "resposta": "BPM é uma abordagem para melhorar processos de negócios de forma contínua. Ele envolve mapeamento, análise, otimização e automação de fluxos de trabalho para aumentar a eficiência e alinhar processos aos objetivos da empresa."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "Como medir a eficiência de um fluxo de trabalho?",
+        "resposta": "A eficiência pode ser medida por meio de indicadores como tempo de execução, custo por tarefa, taxa de erros e satisfação dos colaboradores. Ferramentas de análise e feedbacks regulares ajudam a identificar áreas de melhoria."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing digital e quais são suas principais estratégias?",
+        "resposta": "Marketing digital é o uso de canais online para promover produtos ou serviços. As principais estratégias incluem SEO, publicidade paga, marketing de conteúdo, e-mail marketing e presença em redes sociais."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "Como o funil de vendas funciona no marketing digital?",
+        "resposta": "O funil de vendas representa a jornada do cliente, desde o primeiro contato até a conversão. Ele é dividido em etapas como atração, consideração e decisão, com estratégias específicas para cada fase."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é SEO e por que ele é importante para empresas?",
+        "resposta": "SEO (Search Engine Optimization) é o conjunto de técnicas para melhorar o posicionamento de um site nos mecanismos de busca. É importante porque aumenta a visibilidade orgânica, atraindo tráfego qualificado sem custos de publicidade."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "Quais são as métricas mais importantes no marketing digital?",
+        "resposta": "As métricas mais importantes incluem taxa de conversão, custo por aquisição (CPA), retorno sobre investimento (ROI), tráfego orgânico, taxa de cliques (CTR) e engajamento em redes sociais."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de conteúdo e como ele pode ser usado?",
+        "resposta": "Marketing de conteúdo é a criação e distribuição de materiais relevantes para atrair e engajar um público-alvo. Pode ser usado para educar clientes, construir autoridade no mercado e gerar leads qualificados."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é fluxo de caixa e por que ele é importante para empresas?",
+        "resposta": "Fluxo de caixa é o registro das entradas e saídas de dinheiro em um período. É importante porque ajuda a empresa a gerenciar liquidez, planejar investimentos e evitar problemas financeiros."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "Como elaborar um orçamento empresarial eficiente?",
+        "resposta": "Um orçamento eficiente deve incluir projeções realistas de receitas e despesas, considerar cenários otimistas e pessimistas, e ser revisado regularmente para ajustes com base no desempenho real."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é análise de viabilidade financeira e como ela é feita?",
+        "resposta": "A análise de viabilidade financeira avalia se um projeto ou investimento é economicamente viável. Ela envolve projeções de custos, receitas, payback, taxa interna de retorno (TIR) e valor presente líquido (VPL)."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "Quais são os principais indicadores financeiros para avaliar a saúde de uma empresa?",
+        "resposta": "Os principais indicadores incluem lucratividade, rentabilidade, liquidez, endividamento e margem de contribuição. Eles ajudam a avaliar a capacidade da empresa de gerar lucros e manter suas operações."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um firewall e qual sua função em uma rede corporativa?",
+        "resposta": "Um firewall é um sistema de segurança que monitora e controla o tráfego de rede com base em regras de segurança. Sua função é bloquear acessos não autorizados e proteger a rede contra ameaças externas."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é virtualização e como ela é usada em data centers?",
+        "resposta": "Virtualização é a criação de versões virtuais de recursos de TI, como servidores, armazenamento e redes. Em data centers, ela permite consolidar recursos, reduzir custos e aumentar a eficiência operacional."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de backup e por que ele é essencial?",
+        "resposta": "Um sistema de backup é uma cópia de segurança de dados importantes. É essencial para proteger informações contra perdas devido a falhas de hardware, ataques cibernéticos ou desastres naturais."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um protocolo de rede e quais são os mais comuns?",
+        "resposta": "Um protocolo de rede é um conjunto de regras que governam a comunicação entre dispositivos. Os mais comuns incluem TCP/IP, HTTP, FTP e SMTP, cada um com funções específicas na transmissão de dados."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema operacional e qual sua função principal?",
+        "resposta": "Um sistema operacional é o software que gerencia hardware e software de um computador. Sua função principal é fornecer uma interface para o usuário e gerenciar recursos como memória, processamento e armazenamento."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um plano de carreira e como ele pode ser implementado?",
+        "resposta": "Um plano de carreira é um conjunto de metas e orientações para o desenvolvimento profissional de um colaborador. Pode ser implementado por meio de treinamentos, mentorias e oportunidades de crescimento dentro da empresa."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de benefícios flexíveis?",
+        "resposta": "Um programa de benefícios flexíveis permite que os colaboradores escolham os benefícios que mais atendem às suas necessidades, como plano de saúde, vale-refeição ou auxílio-educação, dentro de um limite estabelecido pela empresa."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um clima organizacional e como ele pode ser avaliado?",
+        "resposta": "Clima organizacional é a percepção dos colaboradores sobre o ambiente de trabalho. Pode ser avaliado por meio de pesquisas de satisfação, feedbacks e indicadores como turnover e produtividade."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de treinamento e desenvolvimento?",
+        "resposta": "Um programa de treinamento e desenvolvimento visa capacitar os colaboradores com habilidades técnicas e comportamentais necessárias para o desempenho de suas funções e crescimento na empresa."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um sistema de gestão de desempenho?",
+        "resposta": "Um sistema de gestão de desempenho é uma ferramenta que ajuda a monitorar e avaliar o desempenho dos colaboradores, alinhando-o aos objetivos da empresa e identificando oportunidades de melhoria."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um módulo de gestão de projetos em um ERP?",
+        "resposta": "Um módulo de gestão de projetos em um ERP ajuda a planejar, executar e monitorar projetos, integrando informações como custos, prazos, recursos e progresso, garantindo maior controle e eficiência."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP em nuvem?",
+        "resposta": "Um sistema ERP em nuvem é hospedado em servidores remotos e acessado via internet. Ele oferece vantagens como menor custo de infraestrutura, escalabilidade e acesso em tempo real de qualquer local."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP open source?",
+        "resposta": "Um sistema ERP open source tem seu código-fonte disponível para modificações. Ele permite maior customização e adaptação às necessidades da empresa, mas requer conhecimento técnico para implementação e manutenção."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP modular?",
+        "resposta": "Um sistema ERP modular é composto por módulos independentes que podem ser implementados conforme as necessidades da empresa, como finanças, RH e estoque, permitindo maior flexibilidade e escalabilidade."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP integrado?",
+        "resposta": "Um sistema ERP integrado conecta todos os departamentos de uma empresa em uma única plataforma, permitindo o compartilhamento de dados em tempo real e melhorando a eficiência e a tomada de decisões."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de banco de dados (SGBD)?",
+        "resposta": "Um SGBD é um software que permite criar, gerenciar e manipular bancos de dados. Ele facilita o armazenamento, recuperação e análise de dados de forma eficiente e segura."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de controle de versão?",
+        "resposta": "Um sistema de controle de versão gerencia alterações em código-fonte, permitindo que várias pessoas trabalhem no mesmo projeto sem conflitos. Exemplos incluem Git e Subversion."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de conteúdo (CMS)?",
+        "resposta": "Um CMS é uma plataforma que permite criar, gerenciar e publicar conteúdo digital, como sites e blogs, sem necessidade de conhecimento técnico avançado. Exemplos incluem WordPress e Joomla."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de relacionamento com o cliente (CRM)?",
+        "resposta": "Um CRM é uma ferramenta que ajuda a gerenciar interações com clientes, armazenar informações e melhorar o atendimento, aumentando a satisfação e fidelização."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de projetos?",
+        "resposta": "Um sistema de gerenciamento de projetos ajuda a planejar, executar e monitorar projetos, com ferramentas para gerenciar tarefas, prazos, recursos e custos, garantindo maior eficiência."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho automatizado?",
+        "resposta": "Um fluxo de trabalho automatizado usa tecnologia para executar tarefas repetitivas sem intervenção humana, aumentando a eficiência, reduzindo erros e liberando tempo para atividades estratégicas."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho colaborativo?",
+        "resposta": "Um fluxo de trabalho colaborativo envolve a participação de várias pessoas ou equipes em um processo, com ferramentas que facilitam a comunicação e o compartilhamento de informações."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho baseado em regras?",
+        "resposta": "Um fluxo de trabalho baseado em regras segue diretrizes predefinidas para tomar decisões e executar tarefas, garantindo consistência e conformidade com políticas da empresa."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho orientado a processos?",
+        "resposta": "Um fluxo de trabalho orientado a processos é focado na execução de tarefas sequenciais para atingir um objetivo específico, com monitoramento constante para garantir eficiência."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho dinâmico?",
+        "resposta": "Um fluxo de trabalho dinâmico se adapta às mudanças em tempo real, permitindo ajustes nas tarefas e processos conforme as necessidades do projeto ou da empresa."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de influência?",
+        "resposta": "Marketing de influência usa personalidades ou figuras públicas para promover produtos ou serviços, aproveitando sua credibilidade e alcance para engajar o público-alvo."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing viral?",
+        "resposta": "Marketing viral é uma estratégia que incentiva as pessoas a compartilhar conteúdo de forma orgânica, aumentando rapidamente sua visibilidade e alcance."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de performance?",
+        "resposta": "Marketing de performance foca em resultados mensuráveis, como conversões e vendas, usando estratégias como publicidade paga e SEO para maximizar o retorno sobre investimento."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de nicho?",
+        "resposta": "Marketing de nicho é direcionado a um público específico e especializado, com estratégias personalizadas para atender às necessidades e interesses desse grupo."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de relacionamento?",
+        "resposta": "Marketing de relacionamento busca construir e manter relacionamentos de longo prazo com clientes, aumentando a fidelização e o valor do cliente ao longo do tempo."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um balanço patrimonial?",
+        "resposta": "Um balanço patrimonial é um relatório financeiro que mostra a situação patrimonial de uma empresa, incluindo ativos, passivos e patrimônio líquido em um determinado momento."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é uma demonstração de resultados?",
+        "resposta": "Uma demonstração de resultados mostra as receitas, custos e despesas de uma empresa em um período, resultando no lucro ou prejuízo líquido."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um fluxo de caixa projetado?",
+        "resposta": "Um fluxo de caixa projetado é uma estimativa das entradas e saídas de dinheiro em um período futuro, ajudando a empresa a planejar suas finanças e evitar problemas de liquidez."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um orçamento de capital?",
+        "resposta": "Um orçamento de capital é um planejamento de investimentos em ativos de longo prazo, como máquinas e equipamentos, visando aumentar a capacidade produtiva da empresa."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de liquidez?",
+        "resposta": "Um índice de liquidez mede a capacidade de uma empresa de pagar suas dívidas de curto prazo com seus ativos circulantes, como caixa e estoques."
+    },
+    {
+    "topico": "RH",
+    "pergunta": "O que é um programa de retenção de talentos?",
+    "resposta": "Um programa de retenção de talentos inclui estratégias para manter colaboradores-chave na empresa, como planos de carreira, benefícios personalizados, reconhecimento e desenvolvimento profissional."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um código de ética corporativa?",
+        "resposta": "Um código de ética corporativa é um conjunto de normas e princípios que orientam o comportamento dos colaboradores, promovendo integridade, transparência e responsabilidade nas ações da empresa."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de mentoria?",
+        "resposta": "Um programa de mentoria conecta colaboradores experientes a outros menos experientes para compartilhar conhecimentos, orientar no desenvolvimento profissional e acelerar a adaptação à empresa."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um sistema de gestão de competências?",
+        "resposta": "Um sistema de gestão de competências identifica, avalia e desenvolve as habilidades necessárias para os colaboradores desempenharem suas funções de forma eficiente, alinhando-as aos objetivos da empresa."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de bem-estar corporativo?",
+        "resposta": "Um programa de bem-estar corporativo promove a saúde física e mental dos colaboradores, com iniciativas como ginástica laboral, apoio psicológico e campanhas de qualidade de vida."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP híbrido?",
+        "resposta": "Um sistema ERP híbrido combina funcionalidades locais (on-premise) e em nuvem, oferecendo flexibilidade para empresas que desejam manter parte de seus dados internamente e outra parte na nuvem."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP verticalizado?",
+        "resposta": "Um sistema ERP verticalizado é desenvolvido para atender às necessidades específicas de um setor ou indústria, como saúde, varejo ou manufatura, com funcionalidades especializadas."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP global?",
+        "resposta": "Um sistema ERP global é projetado para empresas com operações em vários países, suportando diferentes moedas, idiomas e regulamentações fiscais, garantindo consistência e controle centralizado."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de código aberto?",
+        "resposta": "Um sistema ERP de código aberto permite que empresas modifiquem e adaptem o software conforme suas necessidades, sem custos de licenciamento, mas exigindo conhecimento técnico para personalização."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP móvel?",
+        "resposta": "Um sistema ERP móvel permite o acesso às funcionalidades do ERP por meio de dispositivos móveis, como smartphones e tablets, facilitando a gestão em tempo real e a mobilidade dos colaboradores."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de detecção de intrusões (IDS)?",
+        "resposta": "Um IDS monitora uma rede ou sistema em busca de atividades maliciosas ou violações de políticas de segurança, alertando os administradores para tomar medidas preventivas."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de prevenção de intrusões (IPS)?",
+        "resposta": "Um IPS vai além do IDS, bloqueando automaticamente atividades maliciosas detectadas em uma rede, como ataques de negação de serviço (DoS) ou tentativas de exploração de vulnerabilidades."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de identidade e acesso (IAM)?",
+        "resposta": "Um IAM controla o acesso de usuários a sistemas e dados, garantindo que apenas pessoas autorizadas tenham permissão para acessar recursos específicos, com base em políticas de segurança."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de eventos de segurança (SIEM)?",
+        "resposta": "Um SIEM coleta e analisa dados de segurança de diferentes fontes, como firewalls e antivírus, para detectar e responder a ameaças em tempo real."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de patches?",
+        "resposta": "Um sistema de gerenciamento de patches automatiza a aplicação de atualizações de software para corrigir vulnerabilidades e melhorar a segurança e o desempenho dos sistemas."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho baseado em eventos?",
+        "resposta": "Um fluxo de trabalho baseado em eventos é acionado por ocorrências específicas, como o recebimento de um e-mail ou a conclusão de uma tarefa, automatizando processos de forma dinâmica."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de aprovação?",
+        "resposta": "Um fluxo de trabalho de aprovação gerencia o processo de revisão e autorização de documentos ou solicitações, garantindo que todas as etapas sejam seguidas antes da conclusão."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de suporte ao cliente?",
+        "resposta": "Um fluxo de trabalho de suporte ao cliente organiza o atendimento a solicitações e problemas, garantindo que cada caso seja resolvido de forma eficiente e dentro do prazo."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de desenvolvimento de produtos?",
+        "resposta": "Um fluxo de trabalho de desenvolvimento de produtos gerencia as etapas de criação, desde a concepção até o lançamento, garantindo que todas as fases sejam concluídas de forma organizada."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de vendas?",
+        "resposta": "Um fluxo de trabalho de vendas organiza o processo de prospecção, negociação e fechamento de negócios, garantindo que todas as etapas sejam seguidas para maximizar as conversões."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de guerrilha?",
+        "resposta": "Marketing de guerrilha usa estratégias criativas e de baixo custo para chamar a atenção do público, como ações inovadoras em locais públicos ou campanhas virais nas redes sociais."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de conteúdo gerado pelo usuário (UGC)?",
+        "resposta": "Marketing de conteúdo gerado pelo usuário envolve o uso de materiais criados pelos próprios clientes, como reviews, fotos e vídeos, para promover produtos ou serviços de forma autêntica."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de experiência?",
+        "resposta": "Marketing de experiência cria interações memoráveis com a marca, como eventos ou experiências imersivas, para engajar emocionalmente o público e fortalecer a conexão com a empresa."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de precisão?",
+        "resposta": "Marketing de precisão usa dados e análises para direcionar campanhas a públicos específicos, garantindo que as mensagens sejam altamente relevantes e personalizadas."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de causa?",
+        "resposta": "Marketing de causa associa a marca a uma causa social ou ambiental, promovendo a responsabilidade corporativa e engajando consumidores que compartilham os mesmos valores."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de endividamento?",
+        "resposta": "Um índice de endividamento mede a proporção entre o capital próprio e o capital de terceiros de uma empresa, indicando sua capacidade de pagar dívidas e seu nível de alavancagem."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de rentabilidade?",
+        "resposta": "Um índice de rentabilidade avalia a capacidade de uma empresa de gerar lucros em relação a seus investimentos, vendas ou patrimônio, como margem líquida e retorno sobre o patrimônio (ROE)."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de liquidez seca?",
+        "resposta": "Um índice de liquidez seca mede a capacidade de uma empresa de pagar suas dívidas de curto prazo sem considerar o estoque, focando apenas em ativos mais líquidos, como caixa e contas a receber."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de liquidez imediata?",
+        "resposta": "Um índice de liquidez imediata mede a capacidade de uma empresa de pagar suas dívidas de curto prazo apenas com seus ativos mais líquidos, como caixa e equivalentes de caixa."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de liquidez corrente?",
+        "resposta": "Um índice de liquidez corrente compara os ativos circulantes (como estoque e contas a receber) com os passivos circulantes, indicando a capacidade de pagar dívidas de curto prazo."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de configuração?",
+        "resposta": "Um sistema de gerenciamento de configuração controla as mudanças em sistemas de software, garantindo que todas as alterações sejam documentadas e rastreáveis, evitando problemas de compatibilidade."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de incidentes?",
+        "resposta": "Um sistema de gerenciamento de incidentes registra, prioriza e resolve problemas técnicos, garantindo que falhas sejam corrigidas de forma rápida e eficiente."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de mudanças?",
+        "resposta": "Um sistema de gerenciamento de mudanças controla as alterações em sistemas de TI, garantindo que todas as modificações sejam planejadas, testadas e aprovadas antes da implementação."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de capacidade?",
+        "resposta": "Um sistema de gerenciamento de capacidade monitora e planeja o uso de recursos de TI, como servidores e armazenamento, para garantir que a infraestrutura atenda às demandas da empresa."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de continuidade de negócios?",
+        "resposta": "Um sistema de gerenciamento de continuidade de negócios garante que a empresa possa operar em situações de crise, com planos de recuperação de desastres e manutenção de serviços essenciais."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de desenvolvimento de liderança?",
+        "resposta": "Um programa de desenvolvimento de liderança prepara colaboradores para assumir cargos de gestão, com treinamentos em habilidades como comunicação, tomada de decisão e gestão de equipes."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de reconhecimento de funcionários?",
+        "resposta": "Um programa de reconhecimento de funcionários recompensa colaboradores por seu desempenho e contribuições, aumentando a motivação e a satisfação no trabalho."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de saúde ocupacional?",
+        "resposta": "Um programa de saúde ocupacional promove a saúde e segurança dos colaboradores no ambiente de trabalho, com ações como exames médicos periódicos e prevenção de acidentes."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de diversidade e inclusão?",
+        "resposta": "Um programa de diversidade e inclusão promove a representação de diferentes grupos na empresa, criando um ambiente mais justo, inovador e produtivo."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de engajamento de funcionários?",
+        "resposta": "Um programa de engajamento de funcionários busca aumentar o comprometimento dos colaboradores com a empresa, por meio de iniciativas como feedbacks, reconhecimento e oportunidades de crescimento."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de cadeia de suprimentos (SCM)?",
+        "resposta": "Um ERP com módulo de SCM gerencia o fluxo de materiais, informações e finanças ao longo da cadeia de suprimentos, desde fornecedores até o cliente final, otimizando processos e reduzindo custos."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de relacionamento com fornecedores (SRM)?",
+        "resposta": "Um ERP com módulo de SRM facilita a gestão de relacionamentos com fornecedores, desde a seleção até o pagamento, garantindo melhores condições de compra e parcerias estratégicas."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de ativos?",
+        "resposta": "Um ERP com módulo de gestão de ativos controla o ciclo de vida de ativos físicos, como máquinas e equipamentos, garantindo manutenção preventiva, rastreabilidade e redução de custos."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de qualidade?",
+        "resposta": "Um ERP com módulo de gestão de qualidade monitora e controla os padrões de qualidade em processos produtivos, garantindo conformidade com normas e satisfação do cliente."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de projetos?",
+        "resposta": "Um ERP com módulo de gestão de projetos permite planejar, executar e monitorar projetos, integrando informações como custos, prazos e recursos, garantindo maior controle e eficiência."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de serviços de TI (ITSM)?",
+        "resposta": "Um sistema ITSM gerencia a entrega de serviços de TI, como suporte técnico e manutenção, garantindo que as necessidades dos usuários sejam atendidas de forma eficiente e dentro dos padrões de qualidade."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de ativos de TI (ITAM)?",
+        "resposta": "Um sistema ITAM controla o ciclo de vida de ativos de TI, como hardware e software, garantindo que sejam utilizados de forma eficiente e em conformidade com licenças e políticas."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de desempenho de aplicações (APM)?",
+        "resposta": "Um sistema APM monitora o desempenho de aplicações em tempo real, identificando gargalos e falhas para garantir que os usuários tenham uma experiência satisfatória."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de banco de dados (DBMS)?",
+        "resposta": "Um DBMS é um software que permite criar, gerenciar e manipular bancos de dados, garantindo armazenamento, recuperação e análise eficiente de informações."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de rede?",
+        "resposta": "Um sistema de gerenciamento de rede monitora e controla dispositivos de rede, como roteadores e switches, garantindo que a infraestrutura funcione de forma eficiente e segura."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de atendimento ao cliente?",
+        "resposta": "Um fluxo de trabalho de atendimento ao cliente organiza o processo de interação com clientes, desde o primeiro contato até a resolução de problemas, garantindo satisfação e fidelização."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de compras?",
+        "resposta": "Um fluxo de trabalho de compras gerencia o processo de aquisição de produtos e serviços, desde a solicitação até o recebimento, garantindo eficiência e controle de custos."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de produção?",
+        "resposta": "Um fluxo de trabalho de produção organiza as etapas de fabricação de produtos, desde o planejamento até a entrega, garantindo qualidade e eficiência operacional."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de logística?",
+        "resposta": "Um fluxo de trabalho de logística gerencia o transporte e armazenamento de produtos, desde o fornecedor até o cliente final, garantindo entregas rápidas e custos reduzidos."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de marketing?",
+        "resposta": "Um fluxo de trabalho de marketing organiza as etapas de criação e execução de campanhas, desde o planejamento até a análise de resultados, garantindo alinhamento com os objetivos da empresa."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de afiliados?",
+        "resposta": "Marketing de afiliados é uma estratégia em que parceiros promovem produtos ou serviços em troca de comissão por vendas ou leads gerados, ampliando o alcance da marca."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de retenção?",
+        "resposta": "Marketing de retenção foca em manter clientes ativos e engajados, com estratégias como programas de fidelidade, ofertas personalizadas e comunicação proativa."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de geolocalização?",
+        "resposta": "Marketing de geolocalização usa dados de localização para direcionar campanhas a públicos específicos, como ofertas em lojas próximas ou anúncios personalizados por região."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de automação?",
+        "resposta": "Marketing de automação usa ferramentas para automatizar tarefas repetitivas, como envio de e-mails e gestão de campanhas, aumentando a eficiência e a personalização."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de conteúdo interativo?",
+        "resposta": "Marketing de conteúdo interativo envolve o uso de quizzes, vídeos interativos e ferramentas personalizadas para engajar o público de forma mais dinâmica e participativa."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de margem bruta?",
+        "resposta": "Um índice de margem bruta mede a porcentagem de lucro obtido após deduzir os custos diretos de produção, indicando a eficiência operacional da empresa."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de margem operacional?",
+        "resposta": "Um índice de margem operacional mede a porcentagem de lucro obtido após deduzir todos os custos operacionais, exceto juros e impostos, indicando a eficiência da gestão."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de margem líquida?",
+        "resposta": "Um índice de margem líquida mede a porcentagem de lucro obtido após deduzir todos os custos, incluindo impostos e juros, indicando a rentabilidade final da empresa."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de retorno sobre investimento (ROI)?",
+        "resposta": "Um índice de ROI mede o retorno financeiro obtido em relação ao investimento realizado, indicando a eficiência de uma iniciativa ou projeto."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de retorno sobre o patrimônio (ROE)?",
+        "resposta": "Um índice de ROE mede a rentabilidade de uma empresa em relação ao patrimônio líquido, indicando quanto os acionistas estão ganhando com seus investimentos."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de desenvolvimento de competências?",
+        "resposta": "Um programa de desenvolvimento de competências identifica e aprimora as habilidades necessárias para os colaboradores desempenharem suas funções de forma eficaz, alinhando-as às metas da empresa."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de feedback 360 graus?",
+        "resposta": "Um programa de feedback 360 graus coleta avaliações de desempenho de múltiplas fontes, como colegas, subordinados e supervisores, fornecendo uma visão abrangente do desempenho do colaborador."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de estágio?",
+        "resposta": "Um programa de estágio oferece oportunidades para estudantes ou recém-formados ganharem experiência prática em uma empresa, enquanto a empresa identifica talentos em potencial para futuras contratações."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de trainee?",
+        "resposta": "Um programa de trainee é voltado para jovens profissionais, oferecendo treinamento intensivo e rotação por diferentes áreas da empresa, com o objetivo de prepará-los para cargos de liderança."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de voluntariado corporativo?",
+        "resposta": "Um programa de voluntariado corporativo incentiva os colaboradores a participar de ações sociais ou ambientais, promovendo responsabilidade social e engajamento com a comunidade."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de compliance?",
+        "resposta": "Um ERP com módulo de gestão de compliance ajuda a empresa a cumprir regulamentações e normas, como LGPD e ISO, garantindo conformidade e reduzindo riscos de penalidades."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de riscos?",
+        "resposta": "Um ERP com módulo de gestão de riscos identifica, avalia e mitiga riscos operacionais, financeiros e estratégicos, garantindo maior segurança e estabilidade para a empresa."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de sustentabilidade?",
+        "resposta": "Um ERP com módulo de gestão de sustentabilidade monitora e controla indicadores ambientais, sociais e econômicos, ajudando a empresa a adotar práticas mais responsáveis."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de inovação?",
+        "resposta": "Um ERP com módulo de gestão de inovação facilita o gerenciamento de projetos de pesquisa e desenvolvimento, promovendo a criação de novos produtos, serviços ou processos."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de contratos?",
+        "resposta": "Um ERP com módulo de gestão de contratos centraliza e automatiza o ciclo de vida dos contratos, desde a criação até a renovação ou rescisão, garantindo maior controle e conformidade."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de vulnerabilidades?",
+        "resposta": "Um sistema de gerenciamento de vulnerabilidades identifica, prioriza e corrige falhas de segurança em sistemas e aplicações, reduzindo riscos de ataques cibernéticos."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de backups?",
+        "resposta": "Um sistema de gerenciamento de backups automatiza a criação, armazenamento e recuperação de cópias de segurança de dados, garantindo a continuidade dos negócios em caso de falhas."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de licenças de software?",
+        "resposta": "Um sistema de gerenciamento de licenças de software controla o uso e a conformidade de licenças, evitando multas por uso indevido e otimizando custos com software."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de dispositivos móveis (MDM)?",
+        "resposta": "Um MDM permite gerenciar e proteger dispositivos móveis usados na empresa, como smartphones e tablets, garantindo conformidade com políticas de segurança e uso adequado."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de endpoints?",
+        "resposta": "Um sistema de gerenciamento de endpoints protege e monitora dispositivos conectados à rede, como computadores e servidores, contra ameaças e falhas de segurança."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de auditoria?",
+        "resposta": "Um fluxo de trabalho de auditoria organiza o processo de revisão e verificação de documentos, processos ou sistemas, garantindo conformidade com normas e identificando áreas de melhoria."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de compliance?",
+        "resposta": "Um fluxo de trabalho de compliance gerencia o cumprimento de regulamentações e políticas internas, garantindo que a empresa opere dentro dos padrões legais e éticos."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de gestão de crises?",
+        "resposta": "Um fluxo de trabalho de gestão de crises organiza as ações necessárias para responder a situações de emergência, como falhas operacionais ou problemas de reputação, minimizando impactos negativos."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de gestão de mudanças organizacionais?",
+        "resposta": "Um fluxo de trabalho de gestão de mudanças organizacionais facilita a transição para novos processos, estruturas ou tecnologias, garantindo que as mudanças sejam implementadas de forma eficiente."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de gestão de projetos ágeis?",
+        "resposta": "Um fluxo de trabalho de gestão de projetos ágeis usa metodologias como Scrum ou Kanban para gerenciar projetos de forma iterativa e incremental, promovendo adaptação rápida a mudanças."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de influência B2B?",
+        "resposta": "Marketing de influência B2B usa líderes de opinião ou especialistas do setor para promover produtos ou serviços para outras empresas, aumentando credibilidade e alcance."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de conteúdo B2B?",
+        "resposta": "Marketing de conteúdo B2B cria materiais relevantes para empresas, como whitepapers, webinars e estudos de caso, com o objetivo de educar e engajar clientes corporativos."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de account-based (ABM)?",
+        "resposta": "Marketing de account-based é uma estratégia que foca em contas específicas (clientes-alvo) com campanhas personalizadas, aumentando as chances de conversão em vendas."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de eventos?",
+        "resposta": "Marketing de eventos usa conferências, feiras e workshops para promover produtos ou serviços, gerar leads e fortalecer relacionamentos com clientes e parceiros."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de relacionamento B2B?",
+        "resposta": "Marketing de relacionamento B2B foca em construir e manter parcerias de longo prazo com outras empresas, oferecendo soluções personalizadas e suporte contínuo."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de cobertura de juros?",
+        "resposta": "Um índice de cobertura de juros mede a capacidade de uma empresa de pagar juros sobre suas dívidas com seu lucro operacional, indicando sua saúde financeira."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de alavancagem financeira?",
+        "resposta": "Um índice de alavancagem financeira mede a proporção entre o capital de terceiros e o capital próprio, indicando o nível de endividamento da empresa."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de giro de estoque?",
+        "resposta": "Um índice de giro de estoque mede quantas vezes o estoque é renovado em um período, indicando a eficiência na gestão de estoques e vendas."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de giro de ativos?",
+        "resposta": "Um índice de giro de ativos mede a eficiência com que a empresa usa seus ativos para gerar receita, indicando a produtividade dos investimentos."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de margem de contribuição?",
+        "resposta": "Um índice de margem de contribuição mede a diferença entre as receitas e os custos variáveis, indicando quanto cada produto contribui para cobrir custos fixos e gerar lucro."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de logs?",
+        "resposta": "Um sistema de gerenciamento de logs coleta, armazena e analisa registros de atividades de sistemas e aplicações, ajudando a identificar problemas e melhorar a segurança."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de APIs?",
+        "resposta": "Um sistema de gerenciamento de APIs controla o ciclo de vida de interfaces de programação de aplicações, garantindo segurança, desempenho e escalabilidade."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de identidade digital?",
+        "resposta": "Um sistema de gerenciamento de identidade digital controla o acesso de usuários a serviços online, garantindo autenticação segura e proteção de dados pessoais."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de infraestrutura de TI?",
+        "resposta": "Um sistema de gerenciamento de infraestrutura de TI monitora e controla servidores, redes e outros recursos, garantindo disponibilidade e desempenho."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de testes de software?",
+        "resposta": "Um sistema de gerenciamento de testes de software automatiza a execução e análise de testes, garantindo qualidade e reduzindo erros em aplicações."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de desenvolvimento de equipes?",
+        "resposta": "Um programa de desenvolvimento de equipes promove a colaboração e o aprimoramento de habilidades coletivas, aumentando a eficiência e a sinergia entre os colaboradores."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de saúde mental no trabalho?",
+        "resposta": "Um programa de saúde mental no trabalho oferece suporte psicológico e recursos para ajudar os colaboradores a lidar com estresse, ansiedade e outros desafios emocionais."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de desenvolvimento de habilidades técnicas?",
+        "resposta": "Um programa de desenvolvimento de habilidades técnicas oferece treinamentos e certificações para aprimorar conhecimentos específicos, como programação, análise de dados ou gestão de projetos."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de desenvolvimento de habilidades comportamentais?",
+        "resposta": "Um programa de desenvolvimento de habilidades comportamentais foca em competências como comunicação, liderança e trabalho em equipe, essenciais para o sucesso profissional."
+    },
+    {
+        "topico": "RH",
+        "pergunta": "O que é um programa de desenvolvimento de carreira?",
+        "resposta": "Um programa de desenvolvimento de carreira oferece orientação e oportunidades para os colaboradores avançarem em suas trajetórias profissionais, alinhando seus objetivos aos da empresa."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de logística reversa?",
+        "resposta": "Um ERP com módulo de logística reversa gerencia o processo de devolução de produtos, desde a coleta até o descarte ou reaproveitamento, garantindo eficiência e sustentabilidade."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de trade marketing?",
+        "resposta": "Um ERP com módulo de trade marketing facilita a gestão de promoções, descontos e ações comerciais com varejistas, aumentando a visibilidade e as vendas dos produtos."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de e-commerce?",
+        "resposta": "Um ERP com módulo de e-commerce integra operações online, como pedidos, estoque e pagamentos, garantindo uma experiência fluida para os clientes e eficiência para a empresa."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de frotas?",
+        "resposta": "Um ERP com módulo de gestão de frotas controla veículos, motoristas e rotas, otimizando o uso de recursos e reduzindo custos operacionais."
+    },
+    {
+        "topico": "ERP",
+        "pergunta": "O que é um sistema ERP de gestão de manutenção?",
+        "resposta": "Um ERP com módulo de gestão de manutenção planeja e controla atividades de manutenção preventiva e corretiva, garantindo a disponibilidade de equipamentos e reduzindo falhas."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de big data?",
+        "resposta": "Um sistema de gerenciamento de big data coleta, armazena e analisa grandes volumes de dados, ajudando empresas a extrair insights valiosos para decisões estratégicas."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de IoT?",
+        "resposta": "Um sistema de gerenciamento de IoT (Internet das Coisas) controla dispositivos conectados, como sensores e wearables, garantindo coleta e análise eficiente de dados."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de blockchain?",
+        "resposta": "Um sistema de gerenciamento de blockchain facilita a criação e manutenção de redes descentralizadas, garantindo segurança e transparência em transações e contratos inteligentes."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de realidade virtual (VR)?",
+        "resposta": "Um sistema de gerenciamento de VR controla aplicações de realidade virtual, como treinamentos imersivos ou simulações, garantindo desempenho e usabilidade."
+    },
+    {
+        "topico": "TI",
+        "pergunta": "O que é um sistema de gerenciamento de realidade aumentada (AR)?",
+        "resposta": "Um sistema de gerenciamento de AR controla aplicações de realidade aumentada, como visualização de produtos ou manuais interativos, garantindo integração com sistemas existentes."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de gestão de fornecedores?",
+        "resposta": "Um fluxo de trabalho de gestão de fornecedores organiza o processo de seleção, avaliação e contratação de fornecedores, garantindo qualidade e custos competitivos."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de gestão de contratos?",
+        "resposta": "Um fluxo de trabalho de gestão de contratos controla o ciclo de vida de contratos, desde a elaboração até a renovação ou rescisão, garantindo conformidade e redução de riscos."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de gestão de incidentes de segurança?",
+        "resposta": "Um fluxo de trabalho de gestão de incidentes de segurança organiza a detecção, análise e resposta a ameaças cibernéticas, garantindo proteção dos dados da empresa."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de gestão de mudanças de TI?",
+        "resposta": "Um fluxo de trabalho de gestão de mudanças de TI controla alterações em sistemas e infraestrutura, garantindo que sejam implementadas de forma segura e eficiente."
+    },
+    {
+        "topico": "Fluxo de Trabalho",
+        "pergunta": "O que é um fluxo de trabalho de gestão de projetos de TI?",
+        "resposta": "Um fluxo de trabalho de gestão de projetos de TI organiza o planejamento, execução e monitoramento de projetos, garantindo entrega dentro do prazo e do orçamento."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de conteúdo gerado por IA?",
+        "resposta": "Marketing de conteúdo gerado por IA usa inteligência artificial para criar textos, imagens ou vídeos, aumentando a escala e a personalização das campanhas."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de hiperpersonalização?",
+        "resposta": "Marketing de hiperpersonalização usa dados e IA para criar experiências altamente personalizadas, como ofertas e mensagens adaptadas às preferências individuais dos clientes."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de omnichannel?",
+        "resposta": "Marketing de omnichannel integra todos os canais de comunicação, como lojas físicas, e-commerce e redes sociais, para oferecer uma experiência consistente ao cliente."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de conversão?",
+        "resposta": "Marketing de conversão foca em estratégias para transformar visitantes em clientes, como otimização de landing pages, call-to-actions e testes A/B."
+    },
+    {
+        "topico": "Marketing",
+        "pergunta": "O que é marketing de engajamento?",
+        "resposta": "Marketing de engajamento usa estratégias para aumentar a interação do público com a marca, como campanhas interativas, gamificação e conteúdo envolvente."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de retorno sobre ativos (ROA)?",
+        "resposta": "Um índice de ROA mede a eficiência com que a empresa usa seus ativos para gerar lucro, indicando a produtividade dos investimentos."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de retorno sobre capital investido (ROIC)?",
+        "resposta": "Um índice de ROIC mede o retorno obtido em relação ao capital investido, indicando a eficiência da empresa em gerar valor para os investidores."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de liquidez geral?",
+        "resposta": "Um índice de liquidez geral mede a capacidade de uma empresa de pagar suas dívidas de curto e longo prazo com seus ativos totais, indicando sua saúde financeira."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de cobertura de dívidas?",
+        "resposta": "Um índice de cobertura de dívidas mede a capacidade de uma empresa de pagar suas obrigações financeiras com seu lucro operacional, indicando sua solvência."
+    },
+    {
+        "topico": "Finanças",
+        "pergunta": "O que é um índice de eficiência operacional?",
+        "resposta": "Um índice de eficiência operacional mede a relação entre custos operacionais e receitas, indicando a eficiência da empresa em gerenciar seus recursos."
+    }
+]
