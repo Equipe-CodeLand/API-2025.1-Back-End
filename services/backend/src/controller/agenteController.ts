@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { db } from '../app/app'; // Importa a conexão com o MySQL
+import db from '../db';
 
 export default class AgenteController {
 

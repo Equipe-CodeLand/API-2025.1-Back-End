@@ -1,30 +1,14 @@
-import { Router } from 'express';
+import { Router, Request, Response } from 'express';
 import multer, { StorageEngine } from 'multer';
-import { Request, Response } from 'express';
-import { db } from '../app/app'; // Importa a conexão com o MySQL
 import AgenteController from '../controller/agenteController';
+import { verificarAdmin } from '../middlewares/verificarAdmin';
+import Autenticacao from '../controller/loginController';
 
 const router = Router();
 
-router.post('/login', (req, res) => {
-    const { email, senha } = req.body;
-
-    // Consulta ao MySQL
-    db.query("SELECT * FROM users WHERE email = ? AND password = ?", [email, senha], (err, results: any) => {
-        if (err) {
-            console.error("Erro no MySQL:", err); // <-- Adicione isso para ver o erro
-            return res.status(500).json({ error: "Erro ao consultar o banco de dados" });
-        }
-
-        if (Array.isArray(results) && results.length > 0) {
-            res.status(200).json({ message: "Login bem-sucedido", user: results[0] });
-        } else {
-            res.status(401).json({ error: "Credenciais inválidas" });
-        }
-    });
-
+router.post('/login', (req: Request, res: Response) => {
+    Autenticacao.login(req, res);
 });
-
 
 // configuração pro upload do arquivo pro cadastro do agente
 const storage = multer.diskStorage({
@@ -39,8 +23,9 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // cadastro do agente
-router.post('/cadastro/agente', upload.single('documento'), async (req: Request, res: Response): Promise<void> => {
+router.post('/cadastro/agente', verificarAdmin, upload.single('documento'), async (req: Request, res: Response) => {
     const agente = req.body;
+    console.log(req.file);
 
     if (!req.file) {
         res.status(400).json({ success: false, message: "Documento não enviado." });
@@ -62,6 +47,5 @@ router.post('/cadastro/agente', upload.single('documento'), async (req: Request,
         res.status(500).json({ error: 'Erro ao cadastrar agente' });
     }
 });
-
 
 export default router;
