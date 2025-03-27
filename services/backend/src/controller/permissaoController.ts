@@ -19,7 +19,7 @@ export default class PermissaoController{
                         if((results as any[]).length == 0){
                             resolve({success: false, message: 'Usuário não possui permissão de agente'});
                         }else{
-                            const queryDesabilitaPermissao = 'update agente_usuario set selecionado = 2 where usuario_id = ?';
+                            const queryDesabilitaPermissao = 'update agente_usuario set selecionado = 0 where usuario_id = ?';
                             db.query(queryDesabilitaPermissao, values, async (err) => {
                                 if(err){
                                     console.error('Erro ao desabilitar permissão do agente:', err);
