@@ -1,4 +1,4 @@
-import db from "../db";
+import db from "../config/db";
 
 export default class PermissaoController{
     static async desabilitarPermissaoAgente(usuarioId: number){
