@@ -51,7 +51,8 @@ export default new class Autenticacao {
             // Retorna a resposta com o token
             res.json({ 
                 message: 'Login bem-sucedido',
-                token 
+                token,
+                role: usuario.role
             });
 
         } catch (error) {
