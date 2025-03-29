@@ -83,12 +83,17 @@ export default class AgenteController {
 
     static async listarUsuariosPorAgente(agenteId: number): Promise<any> {
         try {
-            // Primeira consulta: Recuperar os IDs dos usuários associados ao agente
-            const queryAgenteUsuario = 'SELECT usuario_id FROM agente_usuario WHERE agente_id = ?';
+            // Consulta para recuperar os IDs dos usuários associados ao agente e o campo 'selecionado'
+            const queryAgenteUsuario = `
+                SELECT au.usuario_id, au.selecionado, u.id, u.nome, u.email 
+                FROM agente_usuario au
+                INNER JOIN usuario u ON au.usuario_id = u.id
+                WHERE au.agente_id = ?
+            `;
             const valuesAgenteUsuario = [agenteId];
     
-            // Executar a primeira consulta
-            const usuariosAssociados = await new Promise<any>((resolve, reject) => {
+            // Executar a consulta
+            const usuariosDetalhes = await new Promise<any>((resolve, reject) => {
                 db.query(queryAgenteUsuario, valuesAgenteUsuario, (err, rows) => {
                     if (err) {
                         console.error('Erro ao buscar usuários associados ao agente:', err);
@@ -99,31 +104,7 @@ export default class AgenteController {
                 });
             });
     
-            // Extrair os IDs dos usuários
-            const usuarioIds = usuariosAssociados.map((row: any) => row.usuario_id);
-    
-            // Se não houver usuários associados, retornar uma resposta vazia
-            if (usuarioIds.length === 0) {
-                return { success: true, data: [] };
-            }
-    
-            // Segunda consulta: Recuperar os detalhes dos usuários com base nos IDs
-            const queryUsuarios = 'SELECT id, nome, email FROM usuario WHERE id IN (?)';
-            const valuesUsuarios = [usuarioIds];
-    
-            // Executar a segunda consulta
-            const usuariosDetalhes = await new Promise<any>((resolve, reject) => {
-                db.query(queryUsuarios, valuesUsuarios, (err, rows) => {
-                    if (err) {
-                        console.error('Erro ao buscar detalhes dos usuários:', err);
-                        reject({ success: false, message: 'Erro ao buscar detalhes dos usuários', error: err });
-                    } else {
-                        resolve(rows);
-                    }
-                });
-            });
-    
-            // Retornar os detalhes dos usuários
+            // Retornar os detalhes dos usuários com o campo 'selecionado'
             return { success: true, data: usuariosDetalhes };
     
         } catch (error) {

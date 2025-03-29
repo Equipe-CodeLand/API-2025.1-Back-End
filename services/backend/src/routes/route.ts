@@ -101,4 +101,22 @@ router.put('/agentes/:usuarioId/desabilitar', verificarAdmin, async (req: Reques
     }
 });
 
+// Habilitar permissão de usuário ao agente
+router.put('/agentes/:usuarioId/habilitar', verificarAdmin, async (req: Request, res: Response) => {
+    const { usuarioId } = req.params;
+
+    try {
+        const response = await PermissaoController.habilitarPermissaoAgente(parseInt(usuarioId));
+
+        if (response.success) {
+            res.status(200).json(response);
+        } else {
+            res.status(500).json({ error: response.message }); 
+        }
+    } catch (error) {
+        console.error('Erro ao habilitar permissão de agente:', error);
+        res.status(500).json({ error: 'Erro ao habilitar permissão de agente' });
+    }
+});
+
 export default router;
