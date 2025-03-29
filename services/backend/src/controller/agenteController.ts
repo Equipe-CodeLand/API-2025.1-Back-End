@@ -5,67 +5,67 @@ export default class AgenteController {
 
     static async cadastrarAgente(agente: any) {
         const { setor, assunto, documento } = agente;
-
+    
         // Query para inserir o novo agente
         const queryInsertAgente = 'INSERT INTO agentes (setor, assunto, documento) VALUES (?, ?, ?)';
         const values = [setor, assunto, documento];
-
+    
         return new Promise<any>((resolve, reject) => {
-            // Inserir o novo agente
             db.query(queryInsertAgente, values, async (err, results) => {
                 if (err) {
                     console.error('Erro ao cadastrar agente:', err);
-                    reject({ success: false, message: 'Erro ao cadastrar agente', error: err });
-                } else {
-                    try {
-                        // Obter o ID do agente recém-inserido
-                        const agenteId = (results as any).insertId;
-
-                        // Buscar todos os usuários existentes
-                        const queryUsuarios = 'SELECT id FROM usuario';
-                        const usuarios = await new Promise<any>((resolve, reject) => {
-                            db.query(queryUsuarios, (err, rows) => {
-                                if (err) {
-                                    console.error('Erro ao buscar usuários:', err);
-                                    reject(err);
-                                } else {
-                                    resolve(rows);
-                                }
-                            });
+                    return reject({ success: false, message: 'Erro ao cadastrar agente', error: err });
+                }
+    
+                try {
+                    // Obter o ID do agente recém-inserido
+                    const agenteId = (results as any).insertId;
+    
+                    // Buscar todos os usuários existentes
+                    const queryUsuarios = 'SELECT id FROM usuario';
+                    const usuarios = await new Promise<any[]>((resolve, reject) => {
+                        db.query(queryUsuarios, (err, rows) => {
+                            if (err) {
+                                console.error('Erro ao buscar usuários:', err);
+                                return reject(err);
+                            }
+                            if (Array.isArray(rows)) {
+                                resolve(rows);
+                            } else {
+                                reject(new Error('Unexpected result format from database query'));
+                            }
                         });
-
+                    });
+    
+                    if (usuarios.length > 0) {
                         // Associar cada usuário ao novo agente
-                        if (usuarios.length > 0) {
-                            const queryAssociaUsuario = 'INSERT INTO agente_usuario (agente_id, usuario_id, selecionado) VALUES ?';
-                            const valoresAssociaUsuario = usuarios.map((usuario: any) => [agenteId, usuario.id, true]);
-
-                            await new Promise<void>((resolve, reject) => {
-                                db.query(queryAssociaUsuario, [valoresAssociaUsuario], (err) => {
-                                    if (err) {
-                                        console.error('Erro ao associar usuários ao agente:', err);
-                                        reject(err);
-                                    } else {
-                                        console.log(`Todos os usuários foram associados ao agente com ID ${agenteId}`);
-                                        resolve();
-                                    }
-                                });
+                        const queryAssociaUsuario = 'INSERT INTO agente_usuario (agente_id, usuario_id, selecionado) VALUES ?';
+                        const valoresAssociaUsuario = usuarios.map((usuario) => [agenteId, usuario.id, true]);
+    
+                        await new Promise<void>((resolve, reject) => {
+                            db.query(queryAssociaUsuario, [valoresAssociaUsuario], (err) => {
+                                if (err) {
+                                    console.error('Erro ao associar usuários ao agente:', err);
+                                    return reject(err);
+                                }
+                                console.log(`Todos os usuários foram associados ao agente com ID ${agenteId}`);
+                                resolve();
                             });
-                        }
-
-                        resolve({
-                            success: true,
-                            message: 'Agente cadastrado com sucesso e usuários associados',
                         });
-
-                    } catch (error) {
-                        console.error('Erro ao associar usuários ao agente:', error);
-                        reject({ success: false, message: 'Erro ao associar usuários ao agente', error });
                     }
+    
+                    resolve({
+                        success: true,
+                        message: 'Agente cadastrado com sucesso e usuários associados',
+                    });
+                } catch (error) {
+                    console.error('Erro ao associar usuários ao agente:', error);
+                    reject({ success: false, message: 'Erro ao associar usuários ao agente', error });
                 }
             });
         });
     }
-
+    
     static async listarAgentes(): Promise<any> {
         const query = 'SELECT * FROM agentes';
     
