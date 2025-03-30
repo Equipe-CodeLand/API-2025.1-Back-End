@@ -24,7 +24,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // cadastro do agente
-router.post('/cadastro/agente', verificarAdmin, upload.single('documento'), async (req: Request, res: Response) => {
+router.post('/cadastro/agente', upload.single('documento'), async (req: Request, res: Response) => {
     const agente = req.body;
     console.log(req.file);
 
@@ -50,7 +50,7 @@ router.post('/cadastro/agente', verificarAdmin, upload.single('documento'), asyn
 });
 
 // Listagem dos agentes
-router.get('/agentes', verificarAdmin, async (req: Request, res: Response) => {
+router.get('/agentes', async (req: Request, res: Response) => {
     try {
         const response = await AgenteController.listarAgentes();
 
