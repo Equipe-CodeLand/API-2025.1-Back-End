@@ -4,6 +4,7 @@ import AgenteController from '../controller/agenteController';
 import { verificarAdmin } from '../middlewares/verificarAdmin';
 import Autenticacao from '../controller/loginController';
 import PermissaoController from '../controller/permissaoController';
+import UsuarioController from '../controller/usuarioController';
 
 const router = Router();
 
@@ -18,6 +19,25 @@ const storage = multer.diskStorage({
     },
     filename: (req: Request, file: Express.Multer.File, cb: (error: Error | null, filename: string) => void) => {
         cb(null, `${Date.now()}-${file.originalname}`);
+    }
+});
+
+// cadastro do usuário
+router.post('/cadastro/usuario', verificarAdmin, async (req: Request, res: Response) => {
+    const usuario = req.body;
+    console.log(usuario);
+
+    try {
+        const result = await UsuarioController.cadastrarUsuario(usuario);
+
+        if (result.success) {
+            res.status(201).json(result);
+        } else {
+            res.status(500).json(result);
+        }
+    } catch (error) {
+        console.error('Erro ao cadastrar usuário:', error);
+        res.status(500).json({ error: 'Erro ao cadastrar usuário' });
     }
 });
 
