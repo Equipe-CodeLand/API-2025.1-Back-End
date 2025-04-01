@@ -119,4 +119,23 @@ router.put('/agentes/:usuarioId/habilitar', verificarAdmin, async (req: Request,
     }
 });
 
+
+// Deletar agente
+router.delete('/agentes/:id', verificarAdmin, async (req: Request, res: Response) => {
+    const { id } = req.params;
+
+    try {
+        const response = await AgenteController.deletarAgente(parseInt(id));
+
+        if (response.success) {
+            res.status(200).json(response);
+        } else {
+            res.status(500).json({ error: response.message });
+        }
+    } catch (error) {
+        console.error('Erro ao deletar agente:', error);
+        res.status(500).json({ error: 'Erro ao deletar agente' });
+    }
+});
+
 export default router;

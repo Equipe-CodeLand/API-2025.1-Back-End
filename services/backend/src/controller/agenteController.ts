@@ -112,4 +112,69 @@ export default class AgenteController {
             return { success: false, message: 'Erro ao buscar usuários por agente', error: error };
         }
     }
+
+    static async deletarAgente(agenteId: number): Promise<any> {
+        // Primeiro, deletar todas as associações do agente com usuários
+        const queryDeleteAssociacoes = 'DELETE FROM agente_usuario WHERE agente_id = ?';
+        
+        // Depois, deletar o agente
+        const queryDeleteAgente = 'DELETE FROM agentes WHERE id = ?';
+    
+        return new Promise<any>(async (resolve, reject) => {
+            try {
+                // Iniciar uma transação para garantir atomicidade
+                await new Promise<void>((resolve, reject) => {
+                    db.query('START TRANSACTION', (err) => {
+                        if (err) return reject(err);
+                        resolve();
+                    });
+                });
+    
+                // 1. Deletar as associações primeiro
+                await new Promise<void>((resolve, reject) => {
+                    db.query(queryDeleteAssociacoes, [agenteId], (err) => {
+                        if (err) return reject(err);
+                        resolve();
+                    });
+                });
+    
+                // 2. Deletar o agente
+                await new Promise<void>((resolve, reject) => {
+                    db.query(queryDeleteAgente, [agenteId], (err, result) => {
+                        if (err) return reject(err);
+                        if ((result as any).affectedRows === 0) {
+                            return reject(new Error('Nenhum agente encontrado com o ID fornecido'));
+                        }
+                        resolve();
+                    });
+                });
+    
+                // Commit da transação
+                await new Promise<void>((resolve, reject) => {
+                    db.query('COMMIT', (err) => {
+                        if (err) return reject(err);
+                        resolve();
+                    });
+                });
+    
+                resolve({
+                    success: true,
+                    message: 'Agente e suas associações deletados com sucesso'
+                });
+    
+            } catch (error) {
+                // Rollback em caso de erro
+                await new Promise<void>((resolve) => {
+                    db.query('ROLLBACK', () => resolve());
+                });
+    
+                console.error('Erro ao deletar agente:', error);
+                reject({
+                    success: false,
+                    message: 'Erro ao deletar agente',
+                    error: error instanceof Error ? error.message : error
+                });
+            }
+        });
+    }
 }
