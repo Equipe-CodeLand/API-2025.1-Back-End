@@ -5,8 +5,8 @@ export default class UsuarioController {
         try {
             const { nome, email, senha, cargo } = usuario;
 
-            const queryInsert = `INSERT INTO usuario (nome, email, senha, role) VALUES (?, ?, ?, ?)`;
-            const values = [nome, email, senha, cargo];
+            const queryInsert = `INSERT INTO usuario (nome, email, senha, role, ativo) VALUES (?, ?, ?, ?, ?)`;
+            const values = [nome, email, senha, cargo, true];
 
             return new Promise<any>((resolve, reject) => {
                 db.query(queryInsert, values, async (err, result) => {
