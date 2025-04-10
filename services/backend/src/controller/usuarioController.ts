@@ -1,10 +1,27 @@
 import db from "../config/db";
 import bcrypt from 'bcrypt';
+import { RowDataPacket } from 'mysql2';
 
 export default class UsuarioController {
     static async cadastrarUsuario(usuario: any) {
         try {
             const { nome, email, senha, cargo } = usuario;
+
+            // 🔍 Verifica se o email já está cadastrado
+            const queryEmail = 'SELECT id FROM usuario WHERE email = ?';
+            const emailExiste = await new Promise<boolean>((resolve, reject) => {
+                db.query(queryEmail, [email], (err, results: RowDataPacket[]) => {
+                    if (err) return reject(err);
+                    resolve(results.length > 0);
+                });
+            });          
+
+            if (emailExiste) {
+                return {
+                    success: false,
+                    message: 'E-mail já cadastrado.'
+                };
+            }
 
             // 🔐 Cria hash da senha
             const saltRounds = 10;
@@ -50,7 +67,6 @@ export default class UsuarioController {
                             });
                         }
 
-                        // ✅ Retorna somente o hash da senha
                         resolve({
                             success: true,
                             message: 'Usuário cadastrado com sucesso',

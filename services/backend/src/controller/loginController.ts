@@ -10,6 +10,7 @@ export default new class Autenticacao {
             const { email, senha } = req.body;
 
             if (!email || !senha) {
+                console.log(email,senha)
                 res.status(400).json({ message: 'Email e senha são obrigatórios' });
                 return;
             }
