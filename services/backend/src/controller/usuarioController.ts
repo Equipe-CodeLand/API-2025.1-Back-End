@@ -1,12 +1,34 @@
 import db from "../config/db";
+import bcrypt from 'bcrypt';
+import { RowDataPacket } from 'mysql2';
 
 export default class UsuarioController {
     static async cadastrarUsuario(usuario: any) {
         try {
             const { nome, email, senha, cargo } = usuario;
 
-            const queryInsert = `INSERT INTO usuario (nome, email, senha, role) VALUES (?, ?, ?, ?)`;
-            const values = [nome, email, senha, cargo];
+            // 🔍 Verifica se o email já está cadastrado
+            const queryEmail = 'SELECT id FROM usuario WHERE email = ?';
+            const emailExiste = await new Promise<boolean>((resolve, reject) => {
+                db.query(queryEmail, [email], (err, results: RowDataPacket[]) => {
+                    if (err) return reject(err);
+                    resolve(results.length > 0);
+                });
+            });          
+
+            if (emailExiste) {
+                return {
+                    success: false,
+                    message: 'E-mail já cadastrado.'
+                };
+            }
+
+            // 🔐 Cria hash da senha
+            const saltRounds = 10;
+            const senhaHash = await bcrypt.hash(senha, saltRounds);
+
+            const queryInsert = `INSERT INTO usuario (nome, email, senha, role, ativo) VALUES (?, ?, ?, ?, ?)`;
+            const values = [nome, email, senhaHash, cargo, true];
 
             return new Promise<any>((resolve, reject) => {
                 db.query(queryInsert, values, async (err, result) => {
@@ -15,47 +37,31 @@ export default class UsuarioController {
                         return reject({ success: false, message: 'Erro ao cadastrar usuário', error: err });
                     }
 
-                    try {
-                        // Obter o ID do usuário recém-inserido
-                        const usuarioId = (result as any).insertId;
+                    const usuarioId = (result as any).insertId;
 
-                        // Buscar todos os agentes existentes
+                    try {
                         const queryAgentes = 'SELECT id FROM agentes';
                         const agentes = await new Promise<any[]>((resolve, reject) => {
                             db.query(queryAgentes, (err, rows) => {
-                                if (err) {
-                                    console.error('Erro ao buscar agentes:', err);
-                                    return reject(err);
-                                }
-                                if (Array.isArray(rows)) {
-                                    resolve(rows);
-                                } else {
-                                    reject(new Error('Formato inesperado no resultado da consulta'));
-                                }
+                                if (err) return reject(err);
+                                if (Array.isArray(rows)) return resolve(rows);
+                                return reject(new Error('Formato inesperado'));
                             });
                         });
 
                         if (agentes.length > 0) {
-                            let queryAssociaAgente = '';
+                            let queryAssociaAgente = 'INSERT INTO agente_usuario (agente_id, usuario_id, selecionado) VALUES ?';
                             let valoresAssociaAgente: any[] = [];
 
                             if (cargo !== 'admin') {
-                                // Associar todos os agentes ao novo usuário com "selecionado" como false
-                                queryAssociaAgente = 'INSERT INTO agente_usuario (agente_id, usuario_id, selecionado) VALUES ?';
                                 valoresAssociaAgente = agentes.map((agente) => [agente.id, usuarioId, false]);
                             } else {
-                                // Se o usuário for admin, associar apenas o agente com ID 1 com "selecionado" como true
-                                queryAssociaAgente = 'INSERT INTO agente_usuario (agente_id, usuario_id, selecionado) VALUES ?';
                                 valoresAssociaAgente = agentes.map((agente) => [agente.id, usuarioId, true]);
                             }
 
                             await new Promise<void>((resolve, reject) => {
                                 db.query(queryAssociaAgente, [valoresAssociaAgente], (err) => {
-                                    if (err) {
-                                        console.error('Erro ao associar agentes ao usuário:', err);
-                                        return reject(err);
-                                    }
-                                    console.log(`Agentes foram associados ao usuário com ID ${usuarioId}`);
+                                    if (err) return reject(err);
                                     resolve();
                                 });
                             });
@@ -63,16 +69,16 @@ export default class UsuarioController {
 
                         resolve({
                             success: true,
-                            message: 'Usuário cadastrado com sucesso'
+                            message: 'Usuário cadastrado com sucesso',
+                            senhaHash
                         });
+
                     } catch (error) {
-                        console.error('Erro ao associar agentes ao usuário:', error);
-                        reject({ success: false, message: 'Erro ao associar agentes ao usuário', error });
+                        return reject({ success: false, message: 'Erro ao associar agentes', error });
                     }
                 });
             });
         } catch (error) {
-            console.error('Erro ao cadastrar usuário:', error);
             return { success: false, message: 'Erro ao cadastrar usuário', error };
         }
     }
