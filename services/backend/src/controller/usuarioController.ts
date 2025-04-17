@@ -82,4 +82,39 @@ export default class UsuarioController {
             return { success: false, message: 'Erro ao cadastrar usuário', error };
         }
     }
+
+    static async listarUsuarios(): Promise<any> {
+        const query = 'SELECT * FROM usuario';
+    
+        return new Promise((resolve, reject) => {
+            db.query(query, (err, rows) => {
+                if (err) {
+                    console.error('Erro ao buscar usuarios:', err);
+                    reject({ success: false, message: 'Erro ao buscar usuarios', error: err });
+                } else {
+                    resolve({ success: true, data: rows });
+                }
+            });
+        });
+    }
+
+    static async listarUsuarioPorId(id: number): Promise<any> {
+        const query = 'SELECT * FROM usuario WHERE id = ?';
+    
+        return new Promise((resolve, reject) => {
+            db.query(query, [id], (err, result: RowDataPacket[]) => {
+                if (err) {
+                    console.error('Erro ao buscar usuário:', err);
+                    reject({ success: false, message: 'Erro ao buscar usuário', error: err });
+                } else {
+                    if (result.length === 0) {
+                        resolve({ success: false, message: 'Usuário não encontrado' });
+                    } else {
+                        resolve({ success: true, data: result[0] }); 
+                    }
+                }
+            });
+        });
+    }
+
 }
