@@ -3,13 +3,16 @@ from chatterbot.trainers import ListTrainer
 
 # Criar e configurar o chatbot
 chatbot = ChatBot(
-    'IAServiceBot',
-    storage_adapter='chatterbot.storage.SQLStorageAdapter',
+    "AssistenteEmpresarial",
+    storage_adapter="chatterbot.storage.SQLStorageAdapter",
+    database_uri="sqlite:///chatbot.sqlite3",
     logic_adapters=[
-        'chatterbot.logic.BestMatch',
-        'chatterbot.logic.MathematicalEvaluation',
-    ],
-    database_uri='sqlite:///database.db'  # Banco de dados SQLite para persistência
+        {
+            "import_path": "chatterbot.logic.BestMatch",
+            "default_response": "Hmm, não sei exatamente, mas posso te ajudar a encontrar a resposta!",
+            "maximum_similarity_threshold": 0.75
+        }
+    ]
 )
 
 # Função para obter resposta do chatbot
