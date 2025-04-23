@@ -22,6 +22,9 @@ const storage = multer.diskStorage({
     }
 });
 
+// Rota para buscar usuário logado
+router.get('/usuarios/perfil', UsuarioController.buscarUsuarioLogado);
+
 // cadastro do usuário
 router.post('/cadastro/usuario', verificarAdmin, async (req: Request, res: Response) => {
     const usuario = req.body;
@@ -38,6 +41,19 @@ router.post('/cadastro/usuario', verificarAdmin, async (req: Request, res: Respo
     } catch (error) {
         console.error('Erro ao cadastrar usuário:', error);
         res.status(500).json({ error: 'Erro ao cadastrar usuário' });
+    }
+});
+
+// Ativar/desativar os usuarios
+router.put('/usuarios/:id/status', async (req, res) => {
+    const { id } = req.params;
+    const { ativo } = req.body;
+
+    try {
+        const result = await UsuarioController.atualizarStatusUsuario(Number(id), ativo);
+        res.json(result);
+    } catch (error) {
+        res.status(500).json(error);
     }
 });
 

@@ -10,13 +10,13 @@ export default new class Autenticacao {
             const { email, senha } = req.body;
 
             if (!email || !senha) {
-                console.log(email,senha)
+                console.log(email, senha)
                 res.status(400).json({ message: 'Email e senha são obrigatórios' });
                 return;
             }
 
             const [rows] = await pool.query<Usuario[]>(
-                'SELECT * FROM usuario WHERE email = ?', 
+                'SELECT * FROM usuario WHERE email = ?',
                 [email]
             );
 
@@ -25,7 +25,15 @@ export default new class Autenticacao {
                 return;
             }
 
-            const usuario = rows[0];
+            const usuario = {
+                ...rows[0],
+                ativo: Boolean(rows[0].ativo), //transforma em boolean para verificar no login
+            };
+
+            if (!usuario.ativo) {
+                res.status(401).json({ message: 'Usuário inativo' });
+                return;
+            }
 
             // 🔐 Compara a senha fornecida com o hash do banco
             const senhaValida = await bcrypt.compare(senha, usuario.senha);
@@ -36,12 +44,12 @@ export default new class Autenticacao {
             }
 
             const token = jwt.sign(
-                { id: usuario.id, role: usuario.role }, 
-                process.env.JWT_SECRET as string, 
+                { id: usuario.id, role: usuario.role },
+                process.env.JWT_SECRET as string,
                 { expiresIn: '1h' }
             );
 
-            res.json({ 
+            res.json({
                 message: 'Login bem-sucedido',
                 token,
                 role: usuario.role

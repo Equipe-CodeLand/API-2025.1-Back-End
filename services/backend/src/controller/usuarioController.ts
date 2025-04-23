@@ -1,6 +1,9 @@
 import db from "../config/db";
 import bcrypt from 'bcrypt';
 import { RowDataPacket } from 'mysql2';
+import jwt from 'jsonwebtoken';
+import { Request, Response } from "express";
+
 
 export default class UsuarioController {
     static async cadastrarUsuario(usuario: any) {
@@ -14,7 +17,7 @@ export default class UsuarioController {
                     if (err) return reject(err);
                     resolve(results.length > 0);
                 });
-            });          
+            });
 
             if (emailExiste) {
                 return {
@@ -85,7 +88,7 @@ export default class UsuarioController {
 
     static async listarUsuarios(): Promise<any> {
         const query = 'SELECT * FROM usuario';
-    
+
         return new Promise((resolve, reject) => {
             db.query(query, (err, rows) => {
                 if (err) {
@@ -100,7 +103,7 @@ export default class UsuarioController {
 
     static async listarUsuarioPorId(id: number): Promise<any> {
         const query = 'SELECT * FROM usuario WHERE id = ?';
-    
+
         return new Promise((resolve, reject) => {
             db.query(query, [id], (err, result: RowDataPacket[]) => {
                 if (err) {
@@ -110,11 +113,54 @@ export default class UsuarioController {
                     if (result.length === 0) {
                         resolve({ success: false, message: 'Usuário não encontrado' });
                     } else {
-                        resolve({ success: true, data: result[0] }); 
+                        resolve({ success: true, data: result[0] });
                     }
                 }
             });
         });
     }
+
+    static async atualizarStatusUsuario(id: number, ativo: boolean): Promise<any> {
+        const query = 'UPDATE usuario SET ativo = ? WHERE id = ?';
+
+        return new Promise((resolve, reject) => {
+            db.query(query, [ativo, id], (err, result) => {
+                if (err) {
+                    console.error('Erro ao atualizar status do usuário:', err);
+                    reject({ success: false, message: 'Erro ao atualizar status', error: err });
+                } else {
+                    resolve({ success: true, message: `Usuário ${ativo ? 'ativado' : 'desativado'} com sucesso.` });
+                }
+            });
+        });
+    }
+
+    static async buscarUsuarioLogado(req: Request, res: Response): Promise<void> {
+        try {
+            // Pega o token do cabeçalho Authorization
+            const token = req.headers['authorization']?.split(' ')[1];
+            if (!token) {
+                res.status(401).json({ success: false, message: 'Token não fornecido' });
+                return;
+            }
+
+            // Decodifica o token para obter o ID do usuário
+            const decoded: any = jwt.verify(token, process.env.JWT_SECRET as string);
+
+            // Busca o usuário pelo ID decodificado
+            const { data } = await UsuarioController.listarUsuarioPorId(decoded.id);
+
+            if (!data) {
+                res.status(404).json({ success: false, message: 'Usuário não encontrado' });
+                return;
+            }
+
+            res.json({ success: true, data });
+        } catch (error) {
+            console.error('Erro ao buscar usuário logado:', error);
+            res.status(500).json({ success: false, message: 'Erro ao buscar usuário logado' });
+        }
+    }
+
 
 }
