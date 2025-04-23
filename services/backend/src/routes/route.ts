@@ -174,6 +174,48 @@ router.put('/agentes/:usuarioId/habilitar', verificarAdmin, async (req: Request,
     }
 });
 
+// Atualizar agente
+router.put('/agentes/:id', verificarAdmin, upload.single('documento'), async (req: Request, res: Response) => {
+    const { id } = req.params;
+    const agenteData = req.body;
+
+    try {
+        // Se um novo documento foi enviado, atualiza o caminho
+        if (req.file) {
+            agenteData.documento = req.file.path;
+        }
+
+        // Converter string de usuários selecionados para array, se existir
+        if (agenteData.usuariosSelecionados) {
+            try {
+                agenteData.usuariosSelecionados = JSON.parse(agenteData.usuariosSelecionados);
+            } catch (e) {
+                console.error('Erro ao parsear usuariosSelecionados:', e);
+                return res.status(400).json({ 
+                    success: false, 
+                    message: 'Formato inválido para usuariosSelecionados' 
+                });
+            }
+        }
+
+        const response = await AgenteController.atualizarAgente(parseInt(id), agenteData);
+
+        if (response.success) {
+            res.status(200).json(response);
+        } else {
+            res.status(response.error instanceof Error && response.error.message === 'Agente não encontrado' ? 
+                404 : 500).json(response);
+        }
+    } catch (error) {
+        console.error('Erro ao atualizar agente:', error);
+        res.status(500).json({ 
+            success: false, 
+            message: 'Erro ao atualizar agente',
+            error: error instanceof Error ? error.message : error
+        });
+    }
+});
+
 
 // Deletar agente
 router.delete('/agentes/:id', verificarAdmin, async (req: Request, res: Response) => {
