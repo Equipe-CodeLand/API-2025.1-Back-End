@@ -180,21 +180,20 @@ router.put('/agentes/:id', verificarAdmin, upload.single('documento'), async (re
     const agenteData = req.body;
 
     try {
-        // Se um novo documento foi enviado, atualiza o caminho
         if (req.file) {
             agenteData.documento = req.file.path;
         }
 
-        // Converter string de usuários selecionados para array, se existir
         if (agenteData.usuariosSelecionados) {
             try {
                 agenteData.usuariosSelecionados = JSON.parse(agenteData.usuariosSelecionados);
             } catch (e) {
                 console.error('Erro ao parsear usuariosSelecionados:', e);
-                return res.status(400).json({ 
+                res.status(400).json({ 
                     success: false, 
                     message: 'Formato inválido para usuariosSelecionados' 
                 });
+                return; // Adicione return para encerrar a execução
             }
         }
 

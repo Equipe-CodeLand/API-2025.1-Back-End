@@ -1,5 +1,5 @@
 import { RowDataPacket } from "mysql2";
-import Role from "../enum/role";
+import {Role} from "../enum/role";
 
 export interface Usuario extends RowDataPacket {
     id: number;
