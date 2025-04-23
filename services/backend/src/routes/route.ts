@@ -41,6 +41,41 @@ router.post('/cadastro/usuario', verificarAdmin, async (req: Request, res: Respo
     }
 });
 
+
+//listagem do usuário
+router.get('/usuarios', async (req: Request, res: Response) => {
+    try {
+        const response = await UsuarioController.listarUsuarios();
+
+        if (response.success) {
+            res.status(200).json(response.data); 
+        } else {
+            res.status(500).json({ error: response.message }); 
+        }
+    } catch (error) {
+        console.error('Erro ao buscar usuarios:', error);
+        res.status(500).json({ error: 'Erro ao buscar usuarios' });
+    }
+});
+
+// listar usuario por id
+router.get('/usuarios/:id', async (req: Request, res: Response) => {
+    const { id } = req.params;
+
+    try {
+        const response = await UsuarioController.listarUsuarioPorId(Number(id));
+
+        if (response.success) {
+            res.status(200).json(response.data);
+        } else {
+            res.status(404).json({ error: response.message });
+        }
+    } catch (error) {
+        console.error('Erro ao buscar usuário:', error);
+        res.status(500).json({ error: 'Erro ao buscar usuário' }); 
+    }
+});
+
 const upload = multer({ storage });
 
 // cadastro do agente
