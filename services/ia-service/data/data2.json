@@ -1,0 +1,2702 @@
+[
+  {
+    "id": "82FDC2",
+    "topico": "Finanças",
+    "subtopicos": [
+      "custo",
+      "indicadores"
+    ],
+    "pergunta": "Como aplicar finanças e custo na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e custo na prática?",
+      "Qual a importância de como aplicar finanças e custo na prática?",
+      "Como funciona como aplicar finanças e custo na prática?"
+    ],
+    "resposta": "A aplicação de finanças e custo na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "e",
+      "finanças",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e custo em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "48%",
+      "indicador_2": "42%",
+      "indicador_3": "42%"
+    }
+  },
+  {
+    "id": "D2B94A",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "gestão de tarefas",
+      "automação"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+      "Como funciona como aplicar fluxo de trabalho e gestão de tarefas na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e gestão de tarefas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "de",
+      "gestão",
+      "tarefas"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e gestão de tarefas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "55%",
+      "indicador_2": "15%",
+      "indicador_3": "13%"
+    }
+  },
+  {
+    "id": "70B0F9",
+    "topico": "RH",
+    "subtopicos": [
+      "avaliação",
+      "onboarding"
+    ],
+    "pergunta": "Como aplicar rh e avaliação na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e avaliação na prática?",
+      "Qual a importância de como aplicar rh e avaliação na prática?",
+      "Como funciona como aplicar rh e avaliação na prática?"
+    ],
+    "resposta": "A aplicação de rh e avaliação na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "avaliação",
+      "como",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e avaliação em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "80%",
+      "indicador_2": "34%",
+      "indicador_3": "11%"
+    }
+  },
+  {
+    "id": "BE50C7",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "eficiência",
+      "gestão de tarefas"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e eficiência na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e eficiência na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e eficiência na prática?",
+      "Como funciona como aplicar fluxo de trabalho e eficiência na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e eficiência na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "como",
+      "eficiência",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e eficiência em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "47%",
+      "indicador_2": "37%",
+      "indicador_3": "32%"
+    }
+  },
+  {
+    "id": "64AA67",
+    "topico": "RH",
+    "subtopicos": [
+      "avaliação",
+      "retenção"
+    ],
+    "pergunta": "Como aplicar rh e avaliação na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e avaliação na prática?",
+      "Qual a importância de como aplicar rh e avaliação na prática?",
+      "Como funciona como aplicar rh e avaliação na prática?"
+    ],
+    "resposta": "A aplicação de rh e avaliação na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "rh",
+      "e",
+      "avaliação"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e avaliação em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "49%",
+      "indicador_2": "28%",
+      "indicador_3": "6%"
+    }
+  },
+  {
+    "id": "E4308E",
+    "topico": "RH",
+    "subtopicos": [
+      "desenvolvimento",
+      "avaliação"
+    ],
+    "pergunta": "Como aplicar rh e desenvolvimento na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e desenvolvimento na prática?",
+      "Qual a importância de como aplicar rh e desenvolvimento na prática?",
+      "Como funciona como aplicar rh e desenvolvimento na prática?"
+    ],
+    "resposta": "A aplicação de rh e desenvolvimento na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "na",
+      "e",
+      "aplicar"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e desenvolvimento em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "72%",
+      "indicador_2": "65%",
+      "indicador_3": "32%"
+    }
+  },
+  {
+    "id": "00481E",
+    "topico": "RH",
+    "subtopicos": [
+      "desenvolvimento",
+      "liderança"
+    ],
+    "pergunta": "Como aplicar rh e desenvolvimento na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e desenvolvimento na prática?",
+      "Qual a importância de como aplicar rh e desenvolvimento na prática?",
+      "Como funciona como aplicar rh e desenvolvimento na prática?"
+    ],
+    "resposta": "A aplicação de rh e desenvolvimento na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "na",
+      "rh",
+      "desenvolvimento"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e desenvolvimento em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "38%",
+      "indicador_2": "39%",
+      "indicador_3": "13%"
+    }
+  },
+  {
+    "id": "8755B4",
+    "topico": "ERP",
+    "subtopicos": [
+      "recursos humanos",
+      "financeiro"
+    ],
+    "pergunta": "Como aplicar erp e recursos humanos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e recursos humanos na prática?",
+      "Qual a importância de como aplicar erp e recursos humanos na prática?",
+      "Como funciona como aplicar erp e recursos humanos na prática?"
+    ],
+    "resposta": "A aplicação de erp e recursos humanos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "prática?",
+      "aplicar",
+      "recursos"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e recursos humanos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "63%",
+      "indicador_2": "22%",
+      "indicador_3": "33%"
+    }
+  },
+  {
+    "id": "5BE615",
+    "topico": "Finanças",
+    "subtopicos": [
+      "planejamento",
+      "custo"
+    ],
+    "pergunta": "Como aplicar finanças e planejamento na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e planejamento na prática?",
+      "Qual a importância de como aplicar finanças e planejamento na prática?",
+      "Como funciona como aplicar finanças e planejamento na prática?"
+    ],
+    "resposta": "A aplicação de finanças e planejamento na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "planejamento",
+      "finanças",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e planejamento em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "41%",
+      "indicador_2": "51%",
+      "indicador_3": "34%"
+    }
+  },
+  {
+    "id": "B119C1",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "automação",
+      "eficiência"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e automação na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e automação na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e automação na prática?",
+      "Como funciona como aplicar fluxo de trabalho e automação na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e automação na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "e",
+      "como",
+      "aplicar"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e automação em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "73%",
+      "indicador_2": "15%",
+      "indicador_3": "19%"
+    }
+  },
+  {
+    "id": "B202E1",
+    "topico": "ERP",
+    "subtopicos": [
+      "vendas",
+      "recursos humanos"
+    ],
+    "pergunta": "Como aplicar erp e vendas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e vendas na prática?",
+      "Qual a importância de como aplicar erp e vendas na prática?",
+      "Como funciona como aplicar erp e vendas na prática?"
+    ],
+    "resposta": "A aplicação de erp e vendas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "na",
+      "aplicar",
+      "vendas"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e vendas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "90%",
+      "indicador_2": "25%",
+      "indicador_3": "16%"
+    }
+  },
+  {
+    "id": "B6FC0E",
+    "topico": "ERP",
+    "subtopicos": [
+      "estoque",
+      "vendas"
+    ],
+    "pergunta": "Como aplicar erp e estoque na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e estoque na prática?",
+      "Qual a importância de como aplicar erp e estoque na prática?",
+      "Como funciona como aplicar erp e estoque na prática?"
+    ],
+    "resposta": "A aplicação de erp e estoque na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "prática?",
+      "aplicar",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e estoque em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "53%",
+      "indicador_2": "13%",
+      "indicador_3": "9%"
+    }
+  },
+  {
+    "id": "9EFD87",
+    "topico": "ERP",
+    "subtopicos": [
+      "recursos humanos",
+      "vendas"
+    ],
+    "pergunta": "Como aplicar erp e recursos humanos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e recursos humanos na prática?",
+      "Qual a importância de como aplicar erp e recursos humanos na prática?",
+      "Como funciona como aplicar erp e recursos humanos na prática?"
+    ],
+    "resposta": "A aplicação de erp e recursos humanos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "na",
+      "erp",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e recursos humanos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "22%",
+      "indicador_2": "63%",
+      "indicador_3": "46%"
+    }
+  },
+  {
+    "id": "19E44D",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "automação",
+      "processos"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e automação na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e automação na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e automação na prática?",
+      "Como funciona como aplicar fluxo de trabalho e automação na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e automação na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "trabalho",
+      "e",
+      "de"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e automação em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "26%",
+      "indicador_2": "36%",
+      "indicador_3": "38%"
+    }
+  },
+  {
+    "id": "AFF589",
+    "topico": "RH",
+    "subtopicos": [
+      "desenvolvimento",
+      "avaliação"
+    ],
+    "pergunta": "Como aplicar rh e desenvolvimento na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e desenvolvimento na prática?",
+      "Qual a importância de como aplicar rh e desenvolvimento na prática?",
+      "Como funciona como aplicar rh e desenvolvimento na prática?"
+    ],
+    "resposta": "A aplicação de rh e desenvolvimento na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "como",
+      "e",
+      "desenvolvimento"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e desenvolvimento em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "27%",
+      "indicador_2": "70%",
+      "indicador_3": "39%"
+    }
+  },
+  {
+    "id": "613C01",
+    "topico": "Marketing",
+    "subtopicos": [
+      "campanhas",
+      "conversão"
+    ],
+    "pergunta": "Como aplicar marketing e campanhas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e campanhas na prática?",
+      "Qual a importância de como aplicar marketing e campanhas na prática?",
+      "Como funciona como aplicar marketing e campanhas na prática?"
+    ],
+    "resposta": "A aplicação de marketing e campanhas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "marketing",
+      "prática?",
+      "campanhas"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e campanhas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "75%",
+      "indicador_2": "10%",
+      "indicador_3": "56%"
+    }
+  },
+  {
+    "id": "151368",
+    "topico": "TI",
+    "subtopicos": [
+      "suporte",
+      "segurança"
+    ],
+    "pergunta": "Como aplicar ti e suporte na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar ti e suporte na prática?",
+      "Qual a importância de como aplicar ti e suporte na prática?",
+      "Como funciona como aplicar ti e suporte na prática?"
+    ],
+    "resposta": "A aplicação de ti e suporte na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "ti",
+      "como",
+      "suporte"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos ti e suporte em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "90%",
+      "indicador_2": "24%",
+      "indicador_3": "12%"
+    }
+  },
+  {
+    "id": "E6BBAE",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "automação",
+      "eficiência"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e automação na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e automação na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e automação na prática?",
+      "Como funciona como aplicar fluxo de trabalho e automação na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e automação na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "aplicar",
+      "trabalho",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e automação em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "59%",
+      "indicador_2": "19%",
+      "indicador_3": "27%"
+    }
+  },
+  {
+    "id": "97D1D7",
+    "topico": "Marketing",
+    "subtopicos": [
+      "campanhas",
+      "estratégia"
+    ],
+    "pergunta": "Como aplicar marketing e campanhas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e campanhas na prática?",
+      "Qual a importância de como aplicar marketing e campanhas na prática?",
+      "Como funciona como aplicar marketing e campanhas na prática?"
+    ],
+    "resposta": "A aplicação de marketing e campanhas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "aplicar",
+      "na",
+      "como"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e campanhas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "65%",
+      "indicador_2": "33%",
+      "indicador_3": "21%"
+    }
+  },
+  {
+    "id": "C9F130",
+    "topico": "ERP",
+    "subtopicos": [
+      "vendas",
+      "financeiro"
+    ],
+    "pergunta": "Como aplicar erp e vendas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e vendas na prática?",
+      "Qual a importância de como aplicar erp e vendas na prática?",
+      "Como funciona como aplicar erp e vendas na prática?"
+    ],
+    "resposta": "A aplicação de erp e vendas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "e",
+      "prática?",
+      "aplicar"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e vendas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "42%",
+      "indicador_2": "36%",
+      "indicador_3": "5%"
+    }
+  },
+  {
+    "id": "CD3AA6",
+    "topico": "RH",
+    "subtopicos": [
+      "avaliação",
+      "liderança"
+    ],
+    "pergunta": "Como aplicar rh e avaliação na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e avaliação na prática?",
+      "Qual a importância de como aplicar rh e avaliação na prática?",
+      "Como funciona como aplicar rh e avaliação na prática?"
+    ],
+    "resposta": "A aplicação de rh e avaliação na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "prática?",
+      "na",
+      "como"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e avaliação em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "86%",
+      "indicador_2": "28%",
+      "indicador_3": "24%"
+    }
+  },
+  {
+    "id": "6193B4",
+    "topico": "Marketing",
+    "subtopicos": [
+      "conversão",
+      "campanhas"
+    ],
+    "pergunta": "Como aplicar marketing e conversão na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e conversão na prática?",
+      "Qual a importância de como aplicar marketing e conversão na prática?",
+      "Como funciona como aplicar marketing e conversão na prática?"
+    ],
+    "resposta": "A aplicação de marketing e conversão na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "prática?",
+      "como",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e conversão em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "64%",
+      "indicador_2": "43%",
+      "indicador_3": "17%"
+    }
+  },
+  {
+    "id": "DEF847",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "eficiência",
+      "processos"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e eficiência na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e eficiência na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e eficiência na prática?",
+      "Como funciona como aplicar fluxo de trabalho e eficiência na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e eficiência na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "de",
+      "aplicar",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e eficiência em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "66%",
+      "indicador_2": "56%",
+      "indicador_3": "46%"
+    }
+  },
+  {
+    "id": "F58AEF",
+    "topico": "Marketing",
+    "subtopicos": [
+      "campanhas",
+      "mídias sociais"
+    ],
+    "pergunta": "Como aplicar marketing e campanhas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e campanhas na prática?",
+      "Qual a importância de como aplicar marketing e campanhas na prática?",
+      "Como funciona como aplicar marketing e campanhas na prática?"
+    ],
+    "resposta": "A aplicação de marketing e campanhas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "como",
+      "prática?",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e campanhas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "25%",
+      "indicador_2": "34%",
+      "indicador_3": "47%"
+    }
+  },
+  {
+    "id": "9FE803",
+    "topico": "RH",
+    "subtopicos": [
+      "retenção",
+      "onboarding"
+    ],
+    "pergunta": "Como aplicar rh e retenção na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e retenção na prática?",
+      "Qual a importância de como aplicar rh e retenção na prática?",
+      "Como funciona como aplicar rh e retenção na prática?"
+    ],
+    "resposta": "A aplicação de rh e retenção na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "retenção",
+      "prática?",
+      "como"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e retenção em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "26%",
+      "indicador_2": "11%",
+      "indicador_3": "32%"
+    }
+  },
+  {
+    "id": "032195",
+    "topico": "RH",
+    "subtopicos": [
+      "retenção",
+      "desenvolvimento"
+    ],
+    "pergunta": "Como aplicar rh e retenção na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e retenção na prática?",
+      "Qual a importância de como aplicar rh e retenção na prática?",
+      "Como funciona como aplicar rh e retenção na prática?"
+    ],
+    "resposta": "A aplicação de rh e retenção na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "rh",
+      "retenção",
+      "aplicar"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e retenção em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "82%",
+      "indicador_2": "30%",
+      "indicador_3": "11%"
+    }
+  },
+  {
+    "id": "918245",
+    "topico": "ERP",
+    "subtopicos": [
+      "vendas",
+      "financeiro"
+    ],
+    "pergunta": "Como aplicar erp e vendas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e vendas na prática?",
+      "Qual a importância de como aplicar erp e vendas na prática?",
+      "Como funciona como aplicar erp e vendas na prática?"
+    ],
+    "resposta": "A aplicação de erp e vendas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "na",
+      "vendas",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e vendas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "87%",
+      "indicador_2": "14%",
+      "indicador_3": "53%"
+    }
+  },
+  {
+    "id": "4EB38C",
+    "topico": "TI",
+    "subtopicos": [
+      "suporte",
+      "dados"
+    ],
+    "pergunta": "Como aplicar ti e suporte na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar ti e suporte na prática?",
+      "Qual a importância de como aplicar ti e suporte na prática?",
+      "Como funciona como aplicar ti e suporte na prática?"
+    ],
+    "resposta": "A aplicação de ti e suporte na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "suporte",
+      "na",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos ti e suporte em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "84%",
+      "indicador_2": "69%",
+      "indicador_3": "7%"
+    }
+  },
+  {
+    "id": "9958DB",
+    "topico": "Finanças",
+    "subtopicos": [
+      "indicadores",
+      "planejamento"
+    ],
+    "pergunta": "Como aplicar finanças e indicadores na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e indicadores na prática?",
+      "Qual a importância de como aplicar finanças e indicadores na prática?",
+      "Como funciona como aplicar finanças e indicadores na prática?"
+    ],
+    "resposta": "A aplicação de finanças e indicadores na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "aplicar",
+      "indicadores",
+      "como"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e indicadores em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "52%",
+      "indicador_2": "40%",
+      "indicador_3": "46%"
+    }
+  },
+  {
+    "id": "19CB6F",
+    "topico": "Finanças",
+    "subtopicos": [
+      "lucro",
+      "indicadores"
+    ],
+    "pergunta": "Como aplicar finanças e lucro na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e lucro na prática?",
+      "Qual a importância de como aplicar finanças e lucro na prática?",
+      "Como funciona como aplicar finanças e lucro na prática?"
+    ],
+    "resposta": "A aplicação de finanças e lucro na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "e",
+      "lucro",
+      "finanças"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e lucro em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "78%",
+      "indicador_2": "68%",
+      "indicador_3": "33%"
+    }
+  },
+  {
+    "id": "C2D782",
+    "topico": "Finanças",
+    "subtopicos": [
+      "lucro",
+      "indicadores"
+    ],
+    "pergunta": "Como aplicar finanças e lucro na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e lucro na prática?",
+      "Qual a importância de como aplicar finanças e lucro na prática?",
+      "Como funciona como aplicar finanças e lucro na prática?"
+    ],
+    "resposta": "A aplicação de finanças e lucro na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "aplicar",
+      "prática?",
+      "finanças"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e lucro em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "34%",
+      "indicador_2": "16%",
+      "indicador_3": "10%"
+    }
+  },
+  {
+    "id": "21C3AB",
+    "topico": "ERP",
+    "subtopicos": [
+      "projetos",
+      "financeiro"
+    ],
+    "pergunta": "Como aplicar erp e projetos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e projetos na prática?",
+      "Qual a importância de como aplicar erp e projetos na prática?",
+      "Como funciona como aplicar erp e projetos na prática?"
+    ],
+    "resposta": "A aplicação de erp e projetos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "erp",
+      "prática?",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e projetos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "20%",
+      "indicador_2": "20%",
+      "indicador_3": "52%"
+    }
+  },
+  {
+    "id": "4AD4C1",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "gestão de tarefas",
+      "eficiência"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+      "Como funciona como aplicar fluxo de trabalho e gestão de tarefas na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e gestão de tarefas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "e",
+      "aplicar",
+      "tarefas"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e gestão de tarefas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "51%",
+      "indicador_2": "31%",
+      "indicador_3": "58%"
+    }
+  },
+  {
+    "id": "184714",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "processos",
+      "automação"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e processos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e processos na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e processos na prática?",
+      "Como funciona como aplicar fluxo de trabalho e processos na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e processos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "fluxo",
+      "de",
+      "processos"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e processos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "40%",
+      "indicador_2": "49%",
+      "indicador_3": "16%"
+    }
+  },
+  {
+    "id": "7BC68E",
+    "topico": "TI",
+    "subtopicos": [
+      "suporte",
+      "dados"
+    ],
+    "pergunta": "Como aplicar ti e suporte na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar ti e suporte na prática?",
+      "Qual a importância de como aplicar ti e suporte na prática?",
+      "Como funciona como aplicar ti e suporte na prática?"
+    ],
+    "resposta": "A aplicação de ti e suporte na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "suporte",
+      "aplicar",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos ti e suporte em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "62%",
+      "indicador_2": "69%",
+      "indicador_3": "40%"
+    }
+  },
+  {
+    "id": "D9C41B",
+    "topico": "Marketing",
+    "subtopicos": [
+      "estratégia",
+      "mídias sociais"
+    ],
+    "pergunta": "Como aplicar marketing e estratégia na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e estratégia na prática?",
+      "Qual a importância de como aplicar marketing e estratégia na prática?",
+      "Como funciona como aplicar marketing e estratégia na prática?"
+    ],
+    "resposta": "A aplicação de marketing e estratégia na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "aplicar",
+      "e",
+      "marketing"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e estratégia em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "23%",
+      "indicador_2": "25%",
+      "indicador_3": "34%"
+    }
+  },
+  {
+    "id": "D00DA5",
+    "topico": "TI",
+    "subtopicos": [
+      "dados",
+      "infraestrutura"
+    ],
+    "pergunta": "Como aplicar ti e dados na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar ti e dados na prática?",
+      "Qual a importância de como aplicar ti e dados na prática?",
+      "Como funciona como aplicar ti e dados na prática?"
+    ],
+    "resposta": "A aplicação de ti e dados na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "prática?",
+      "como",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos ti e dados em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "20%",
+      "indicador_2": "31%",
+      "indicador_3": "57%"
+    }
+  },
+  {
+    "id": "C5E345",
+    "topico": "Finanças",
+    "subtopicos": [
+      "investimentos",
+      "indicadores"
+    ],
+    "pergunta": "Como aplicar finanças e investimentos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e investimentos na prática?",
+      "Qual a importância de como aplicar finanças e investimentos na prática?",
+      "Como funciona como aplicar finanças e investimentos na prática?"
+    ],
+    "resposta": "A aplicação de finanças e investimentos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "investimentos",
+      "finanças",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e investimentos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "51%",
+      "indicador_2": "15%",
+      "indicador_3": "48%"
+    }
+  },
+  {
+    "id": "D4814B",
+    "topico": "RH",
+    "subtopicos": [
+      "avaliação",
+      "retenção"
+    ],
+    "pergunta": "Como aplicar rh e avaliação na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e avaliação na prática?",
+      "Qual a importância de como aplicar rh e avaliação na prática?",
+      "Como funciona como aplicar rh e avaliação na prática?"
+    ],
+    "resposta": "A aplicação de rh e avaliação na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "avaliação",
+      "aplicar",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e avaliação em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "68%",
+      "indicador_2": "22%",
+      "indicador_3": "54%"
+    }
+  },
+  {
+    "id": "38CA44",
+    "topico": "ERP",
+    "subtopicos": [
+      "financeiro",
+      "vendas"
+    ],
+    "pergunta": "Como aplicar erp e financeiro na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e financeiro na prática?",
+      "Qual a importância de como aplicar erp e financeiro na prática?",
+      "Como funciona como aplicar erp e financeiro na prática?"
+    ],
+    "resposta": "A aplicação de erp e financeiro na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "aplicar",
+      "prática?",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e financeiro em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "66%",
+      "indicador_2": "16%",
+      "indicador_3": "15%"
+    }
+  },
+  {
+    "id": "9D5A80",
+    "topico": "ERP",
+    "subtopicos": [
+      "estoque",
+      "vendas"
+    ],
+    "pergunta": "Como aplicar erp e estoque na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e estoque na prática?",
+      "Qual a importância de como aplicar erp e estoque na prática?",
+      "Como funciona como aplicar erp e estoque na prática?"
+    ],
+    "resposta": "A aplicação de erp e estoque na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "como",
+      "e",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e estoque em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "46%",
+      "indicador_2": "37%",
+      "indicador_3": "58%"
+    }
+  },
+  {
+    "id": "ED7AF1",
+    "topico": "Finanças",
+    "subtopicos": [
+      "indicadores",
+      "planejamento"
+    ],
+    "pergunta": "Como aplicar finanças e indicadores na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e indicadores na prática?",
+      "Qual a importância de como aplicar finanças e indicadores na prática?",
+      "Como funciona como aplicar finanças e indicadores na prática?"
+    ],
+    "resposta": "A aplicação de finanças e indicadores na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "e",
+      "prática?",
+      "finanças"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e indicadores em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "62%",
+      "indicador_2": "62%",
+      "indicador_3": "20%"
+    }
+  },
+  {
+    "id": "8C508D",
+    "topico": "Marketing",
+    "subtopicos": [
+      "mídias sociais",
+      "conversão"
+    ],
+    "pergunta": "Como aplicar marketing e mídias sociais na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e mídias sociais na prática?",
+      "Qual a importância de como aplicar marketing e mídias sociais na prática?",
+      "Como funciona como aplicar marketing e mídias sociais na prática?"
+    ],
+    "resposta": "A aplicação de marketing e mídias sociais na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "e",
+      "aplicar",
+      "mídias"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e mídias sociais em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "73%",
+      "indicador_2": "17%",
+      "indicador_3": "24%"
+    }
+  },
+  {
+    "id": "8073FF",
+    "topico": "RH",
+    "subtopicos": [
+      "desenvolvimento",
+      "retenção"
+    ],
+    "pergunta": "Como aplicar rh e desenvolvimento na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e desenvolvimento na prática?",
+      "Qual a importância de como aplicar rh e desenvolvimento na prática?",
+      "Como funciona como aplicar rh e desenvolvimento na prática?"
+    ],
+    "resposta": "A aplicação de rh e desenvolvimento na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "prática?",
+      "como",
+      "aplicar"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e desenvolvimento em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "27%",
+      "indicador_2": "68%",
+      "indicador_3": "47%"
+    }
+  },
+  {
+    "id": "D68B3B",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "automação",
+      "eficiência"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e automação na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e automação na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e automação na prática?",
+      "Como funciona como aplicar fluxo de trabalho e automação na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e automação na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "trabalho",
+      "e",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e automação em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "90%",
+      "indicador_2": "31%",
+      "indicador_3": "11%"
+    }
+  },
+  {
+    "id": "3A4785",
+    "topico": "Marketing",
+    "subtopicos": [
+      "campanhas",
+      "mídias sociais"
+    ],
+    "pergunta": "Como aplicar marketing e campanhas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e campanhas na prática?",
+      "Qual a importância de como aplicar marketing e campanhas na prática?",
+      "Como funciona como aplicar marketing e campanhas na prática?"
+    ],
+    "resposta": "A aplicação de marketing e campanhas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "e",
+      "marketing",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e campanhas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "23%",
+      "indicador_2": "45%",
+      "indicador_3": "14%"
+    }
+  },
+  {
+    "id": "D5ACB5",
+    "topico": "Finanças",
+    "subtopicos": [
+      "planejamento",
+      "indicadores"
+    ],
+    "pergunta": "Como aplicar finanças e planejamento na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e planejamento na prática?",
+      "Qual a importância de como aplicar finanças e planejamento na prática?",
+      "Como funciona como aplicar finanças e planejamento na prática?"
+    ],
+    "resposta": "A aplicação de finanças e planejamento na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "prática?",
+      "aplicar",
+      "planejamento"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e planejamento em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "47%",
+      "indicador_2": "47%",
+      "indicador_3": "58%"
+    }
+  },
+  {
+    "id": "F5F3DD",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "eficiência",
+      "automação"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e eficiência na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e eficiência na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e eficiência na prática?",
+      "Como funciona como aplicar fluxo de trabalho e eficiência na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e eficiência na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "eficiência",
+      "trabalho",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e eficiência em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "80%",
+      "indicador_2": "28%",
+      "indicador_3": "50%"
+    }
+  },
+  {
+    "id": "5CDDDE",
+    "topico": "Finanças",
+    "subtopicos": [
+      "lucro",
+      "planejamento"
+    ],
+    "pergunta": "Como aplicar finanças e lucro na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e lucro na prática?",
+      "Qual a importância de como aplicar finanças e lucro na prática?",
+      "Como funciona como aplicar finanças e lucro na prática?"
+    ],
+    "resposta": "A aplicação de finanças e lucro na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "prática?",
+      "na",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e lucro em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "40%",
+      "indicador_2": "33%",
+      "indicador_3": "7%"
+    }
+  },
+  {
+    "id": "B9190A",
+    "topico": "RH",
+    "subtopicos": [
+      "avaliação",
+      "onboarding"
+    ],
+    "pergunta": "Como aplicar rh e avaliação na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e avaliação na prática?",
+      "Qual a importância de como aplicar rh e avaliação na prática?",
+      "Como funciona como aplicar rh e avaliação na prática?"
+    ],
+    "resposta": "A aplicação de rh e avaliação na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "prática?",
+      "na",
+      "rh"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e avaliação em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "82%",
+      "indicador_2": "37%",
+      "indicador_3": "55%"
+    }
+  },
+  {
+    "id": "F8E1DE",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "eficiência",
+      "automação"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e eficiência na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e eficiência na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e eficiência na prática?",
+      "Como funciona como aplicar fluxo de trabalho e eficiência na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e eficiência na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "fluxo",
+      "eficiência",
+      "aplicar"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e eficiência em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "40%",
+      "indicador_2": "56%",
+      "indicador_3": "22%"
+    }
+  },
+  {
+    "id": "B7609D",
+    "topico": "Finanças",
+    "subtopicos": [
+      "planejamento",
+      "investimentos"
+    ],
+    "pergunta": "Como aplicar finanças e planejamento na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e planejamento na prática?",
+      "Qual a importância de como aplicar finanças e planejamento na prática?",
+      "Como funciona como aplicar finanças e planejamento na prática?"
+    ],
+    "resposta": "A aplicação de finanças e planejamento na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "finanças",
+      "na",
+      "aplicar"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e planejamento em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "52%",
+      "indicador_2": "47%",
+      "indicador_3": "46%"
+    }
+  },
+  {
+    "id": "C5129F",
+    "topico": "Finanças",
+    "subtopicos": [
+      "investimentos",
+      "custo"
+    ],
+    "pergunta": "Como aplicar finanças e investimentos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e investimentos na prática?",
+      "Qual a importância de como aplicar finanças e investimentos na prática?",
+      "Como funciona como aplicar finanças e investimentos na prática?"
+    ],
+    "resposta": "A aplicação de finanças e investimentos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "finanças",
+      "como",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e investimentos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "78%",
+      "indicador_2": "41%",
+      "indicador_3": "45%"
+    }
+  },
+  {
+    "id": "8EC9E2",
+    "topico": "TI",
+    "subtopicos": [
+      "suporte",
+      "infraestrutura"
+    ],
+    "pergunta": "Como aplicar ti e suporte na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar ti e suporte na prática?",
+      "Qual a importância de como aplicar ti e suporte na prática?",
+      "Como funciona como aplicar ti e suporte na prática?"
+    ],
+    "resposta": "A aplicação de ti e suporte na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "aplicar",
+      "como",
+      "suporte"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos ti e suporte em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "35%",
+      "indicador_2": "23%",
+      "indicador_3": "56%"
+    }
+  },
+  {
+    "id": "F5DAAB",
+    "topico": "RH",
+    "subtopicos": [
+      "onboarding",
+      "liderança"
+    ],
+    "pergunta": "Como aplicar rh e onboarding na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e onboarding na prática?",
+      "Qual a importância de como aplicar rh e onboarding na prática?",
+      "Como funciona como aplicar rh e onboarding na prática?"
+    ],
+    "resposta": "A aplicação de rh e onboarding na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "como",
+      "onboarding",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e onboarding em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "76%",
+      "indicador_2": "17%",
+      "indicador_3": "12%"
+    }
+  },
+  {
+    "id": "DCFD43",
+    "topico": "Finanças",
+    "subtopicos": [
+      "indicadores",
+      "investimentos"
+    ],
+    "pergunta": "Como aplicar finanças e indicadores na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e indicadores na prática?",
+      "Qual a importância de como aplicar finanças e indicadores na prática?",
+      "Como funciona como aplicar finanças e indicadores na prática?"
+    ],
+    "resposta": "A aplicação de finanças e indicadores na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "na",
+      "e",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e indicadores em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "31%",
+      "indicador_2": "48%",
+      "indicador_3": "6%"
+    }
+  },
+  {
+    "id": "D08E67",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "eficiência",
+      "gestão de tarefas"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e eficiência na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e eficiência na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e eficiência na prática?",
+      "Como funciona como aplicar fluxo de trabalho e eficiência na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e eficiência na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "fluxo",
+      "aplicar",
+      "eficiência"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e eficiência em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "72%",
+      "indicador_2": "57%",
+      "indicador_3": "7%"
+    }
+  },
+  {
+    "id": "C9468A",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "processos",
+      "gestão de tarefas"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e processos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e processos na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e processos na prática?",
+      "Como funciona como aplicar fluxo de trabalho e processos na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e processos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "na",
+      "como",
+      "de"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e processos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "50%",
+      "indicador_2": "25%",
+      "indicador_3": "28%"
+    }
+  },
+  {
+    "id": "AB206D",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "automação",
+      "gestão de tarefas"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e automação na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e automação na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e automação na prática?",
+      "Como funciona como aplicar fluxo de trabalho e automação na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e automação na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "trabalho",
+      "automação",
+      "como"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e automação em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "49%",
+      "indicador_2": "28%",
+      "indicador_3": "44%"
+    }
+  },
+  {
+    "id": "959576",
+    "topico": "Finanças",
+    "subtopicos": [
+      "custo",
+      "investimentos"
+    ],
+    "pergunta": "Como aplicar finanças e custo na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e custo na prática?",
+      "Qual a importância de como aplicar finanças e custo na prática?",
+      "Como funciona como aplicar finanças e custo na prática?"
+    ],
+    "resposta": "A aplicação de finanças e custo na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "e",
+      "custo",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e custo em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "45%",
+      "indicador_2": "68%",
+      "indicador_3": "41%"
+    }
+  },
+  {
+    "id": "FC0696",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "processos",
+      "automação"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e processos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e processos na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e processos na prática?",
+      "Como funciona como aplicar fluxo de trabalho e processos na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e processos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "e",
+      "como",
+      "de"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e processos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "41%",
+      "indicador_2": "37%",
+      "indicador_3": "23%"
+    }
+  },
+  {
+    "id": "DD2021",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "gestão de tarefas",
+      "automação"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+      "Como funciona como aplicar fluxo de trabalho e gestão de tarefas na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e gestão de tarefas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "de",
+      "prática?",
+      "como"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e gestão de tarefas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "23%",
+      "indicador_2": "64%",
+      "indicador_3": "42%"
+    }
+  },
+  {
+    "id": "127072",
+    "topico": "TI",
+    "subtopicos": [
+      "infraestrutura",
+      "dados"
+    ],
+    "pergunta": "Como aplicar ti e infraestrutura na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar ti e infraestrutura na prática?",
+      "Qual a importância de como aplicar ti e infraestrutura na prática?",
+      "Como funciona como aplicar ti e infraestrutura na prática?"
+    ],
+    "resposta": "A aplicação de ti e infraestrutura na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "aplicar",
+      "ti",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos ti e infraestrutura em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "62%",
+      "indicador_2": "35%",
+      "indicador_3": "31%"
+    }
+  },
+  {
+    "id": "B22F78",
+    "topico": "RH",
+    "subtopicos": [
+      "onboarding",
+      "desenvolvimento"
+    ],
+    "pergunta": "Como aplicar rh e onboarding na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e onboarding na prática?",
+      "Qual a importância de como aplicar rh e onboarding na prática?",
+      "Como funciona como aplicar rh e onboarding na prática?"
+    ],
+    "resposta": "A aplicação de rh e onboarding na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "rh",
+      "aplicar",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e onboarding em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "47%",
+      "indicador_2": "10%",
+      "indicador_3": "51%"
+    }
+  },
+  {
+    "id": "514549",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "processos",
+      "eficiência"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e processos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e processos na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e processos na prática?",
+      "Como funciona como aplicar fluxo de trabalho e processos na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e processos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "prática?",
+      "trabalho",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e processos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "29%",
+      "indicador_2": "19%",
+      "indicador_3": "25%"
+    }
+  },
+  {
+    "id": "D043DA",
+    "topico": "ERP",
+    "subtopicos": [
+      "estoque",
+      "recursos humanos"
+    ],
+    "pergunta": "Como aplicar erp e estoque na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e estoque na prática?",
+      "Qual a importância de como aplicar erp e estoque na prática?",
+      "Como funciona como aplicar erp e estoque na prática?"
+    ],
+    "resposta": "A aplicação de erp e estoque na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "e",
+      "prática?",
+      "erp"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e estoque em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "24%",
+      "indicador_2": "13%",
+      "indicador_3": "14%"
+    }
+  },
+  {
+    "id": "B1A8E8",
+    "topico": "Finanças",
+    "subtopicos": [
+      "planejamento",
+      "investimentos"
+    ],
+    "pergunta": "Como aplicar finanças e planejamento na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e planejamento na prática?",
+      "Qual a importância de como aplicar finanças e planejamento na prática?",
+      "Como funciona como aplicar finanças e planejamento na prática?"
+    ],
+    "resposta": "A aplicação de finanças e planejamento na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "e",
+      "na",
+      "planejamento"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e planejamento em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "71%",
+      "indicador_2": "50%",
+      "indicador_3": "6%"
+    }
+  },
+  {
+    "id": "EA8F20",
+    "topico": "RH",
+    "subtopicos": [
+      "retenção",
+      "liderança"
+    ],
+    "pergunta": "Como aplicar rh e retenção na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e retenção na prática?",
+      "Qual a importância de como aplicar rh e retenção na prática?",
+      "Como funciona como aplicar rh e retenção na prática?"
+    ],
+    "resposta": "A aplicação de rh e retenção na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "rh",
+      "retenção",
+      "como"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e retenção em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "50%",
+      "indicador_2": "27%",
+      "indicador_3": "23%"
+    }
+  },
+  {
+    "id": "AF4B71",
+    "topico": "Finanças",
+    "subtopicos": [
+      "planejamento",
+      "lucro"
+    ],
+    "pergunta": "Como aplicar finanças e planejamento na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e planejamento na prática?",
+      "Qual a importância de como aplicar finanças e planejamento na prática?",
+      "Como funciona como aplicar finanças e planejamento na prática?"
+    ],
+    "resposta": "A aplicação de finanças e planejamento na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "aplicar",
+      "como",
+      "finanças"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e planejamento em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "21%",
+      "indicador_2": "16%",
+      "indicador_3": "35%"
+    }
+  },
+  {
+    "id": "1C34C4",
+    "topico": "ERP",
+    "subtopicos": [
+      "vendas",
+      "financeiro"
+    ],
+    "pergunta": "Como aplicar erp e vendas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e vendas na prática?",
+      "Qual a importância de como aplicar erp e vendas na prática?",
+      "Como funciona como aplicar erp e vendas na prática?"
+    ],
+    "resposta": "A aplicação de erp e vendas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "vendas",
+      "na",
+      "erp"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e vendas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "88%",
+      "indicador_2": "11%",
+      "indicador_3": "39%"
+    }
+  },
+  {
+    "id": "144813",
+    "topico": "RH",
+    "subtopicos": [
+      "retenção",
+      "desenvolvimento"
+    ],
+    "pergunta": "Como aplicar rh e retenção na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e retenção na prática?",
+      "Qual a importância de como aplicar rh e retenção na prática?",
+      "Como funciona como aplicar rh e retenção na prática?"
+    ],
+    "resposta": "A aplicação de rh e retenção na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "e",
+      "prática?",
+      "retenção"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e retenção em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "20%",
+      "indicador_2": "64%",
+      "indicador_3": "12%"
+    }
+  },
+  {
+    "id": "37EFB1",
+    "topico": "RH",
+    "subtopicos": [
+      "avaliação",
+      "liderança"
+    ],
+    "pergunta": "Como aplicar rh e avaliação na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e avaliação na prática?",
+      "Qual a importância de como aplicar rh e avaliação na prática?",
+      "Como funciona como aplicar rh e avaliação na prática?"
+    ],
+    "resposta": "A aplicação de rh e avaliação na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "rh",
+      "e",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e avaliação em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "75%",
+      "indicador_2": "38%",
+      "indicador_3": "14%"
+    }
+  },
+  {
+    "id": "BF2857",
+    "topico": "Finanças",
+    "subtopicos": [
+      "lucro",
+      "indicadores"
+    ],
+    "pergunta": "Como aplicar finanças e lucro na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e lucro na prática?",
+      "Qual a importância de como aplicar finanças e lucro na prática?",
+      "Como funciona como aplicar finanças e lucro na prática?"
+    ],
+    "resposta": "A aplicação de finanças e lucro na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "finanças",
+      "prática?",
+      "como"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e lucro em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "39%",
+      "indicador_2": "62%",
+      "indicador_3": "22%"
+    }
+  },
+  {
+    "id": "F1D6AC",
+    "topico": "ERP",
+    "subtopicos": [
+      "projetos",
+      "vendas"
+    ],
+    "pergunta": "Como aplicar erp e projetos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e projetos na prática?",
+      "Qual a importância de como aplicar erp e projetos na prática?",
+      "Como funciona como aplicar erp e projetos na prática?"
+    ],
+    "resposta": "A aplicação de erp e projetos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "na",
+      "projetos",
+      "aplicar"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e projetos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "64%",
+      "indicador_2": "15%",
+      "indicador_3": "54%"
+    }
+  },
+  {
+    "id": "0C11AF",
+    "topico": "ERP",
+    "subtopicos": [
+      "financeiro",
+      "vendas"
+    ],
+    "pergunta": "Como aplicar erp e financeiro na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e financeiro na prática?",
+      "Qual a importância de como aplicar erp e financeiro na prática?",
+      "Como funciona como aplicar erp e financeiro na prática?"
+    ],
+    "resposta": "A aplicação de erp e financeiro na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "aplicar",
+      "erp",
+      "financeiro"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e financeiro em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "32%",
+      "indicador_2": "69%",
+      "indicador_3": "28%"
+    }
+  },
+  {
+    "id": "6E97FC",
+    "topico": "TI",
+    "subtopicos": [
+      "segurança",
+      "infraestrutura"
+    ],
+    "pergunta": "Como aplicar ti e segurança na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar ti e segurança na prática?",
+      "Qual a importância de como aplicar ti e segurança na prática?",
+      "Como funciona como aplicar ti e segurança na prática?"
+    ],
+    "resposta": "A aplicação de ti e segurança na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "prática?",
+      "e",
+      "ti"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos ti e segurança em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "25%",
+      "indicador_2": "51%",
+      "indicador_3": "12%"
+    }
+  },
+  {
+    "id": "BD2F83",
+    "topico": "RH",
+    "subtopicos": [
+      "liderança",
+      "avaliação"
+    ],
+    "pergunta": "Como aplicar rh e liderança na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e liderança na prática?",
+      "Qual a importância de como aplicar rh e liderança na prática?",
+      "Como funciona como aplicar rh e liderança na prática?"
+    ],
+    "resposta": "A aplicação de rh e liderança na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "aplicar",
+      "prática?",
+      "liderança"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e liderança em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "72%",
+      "indicador_2": "33%",
+      "indicador_3": "25%"
+    }
+  },
+  {
+    "id": "59ECBA",
+    "topico": "ERP",
+    "subtopicos": [
+      "recursos humanos",
+      "estoque"
+    ],
+    "pergunta": "Como aplicar erp e recursos humanos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e recursos humanos na prática?",
+      "Qual a importância de como aplicar erp e recursos humanos na prática?",
+      "Como funciona como aplicar erp e recursos humanos na prática?"
+    ],
+    "resposta": "A aplicação de erp e recursos humanos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "humanos",
+      "aplicar",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e recursos humanos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "86%",
+      "indicador_2": "16%",
+      "indicador_3": "40%"
+    }
+  },
+  {
+    "id": "B2EC5A",
+    "topico": "Marketing",
+    "subtopicos": [
+      "campanhas",
+      "conversão"
+    ],
+    "pergunta": "Como aplicar marketing e campanhas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e campanhas na prática?",
+      "Qual a importância de como aplicar marketing e campanhas na prática?",
+      "Como funciona como aplicar marketing e campanhas na prática?"
+    ],
+    "resposta": "A aplicação de marketing e campanhas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "marketing",
+      "na",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e campanhas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "90%",
+      "indicador_2": "49%",
+      "indicador_3": "39%"
+    }
+  },
+  {
+    "id": "D0E4ED",
+    "topico": "RH",
+    "subtopicos": [
+      "onboarding",
+      "retenção"
+    ],
+    "pergunta": "Como aplicar rh e onboarding na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e onboarding na prática?",
+      "Qual a importância de como aplicar rh e onboarding na prática?",
+      "Como funciona como aplicar rh e onboarding na prática?"
+    ],
+    "resposta": "A aplicação de rh e onboarding na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "na",
+      "como",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e onboarding em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "71%",
+      "indicador_2": "17%",
+      "indicador_3": "21%"
+    }
+  },
+  {
+    "id": "C06CAF",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "processos",
+      "eficiência"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e processos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e processos na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e processos na prática?",
+      "Como funciona como aplicar fluxo de trabalho e processos na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e processos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "na",
+      "fluxo",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e processos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "44%",
+      "indicador_2": "33%",
+      "indicador_3": "12%"
+    }
+  },
+  {
+    "id": "235507",
+    "topico": "Finanças",
+    "subtopicos": [
+      "investimentos",
+      "lucro"
+    ],
+    "pergunta": "Como aplicar finanças e investimentos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e investimentos na prática?",
+      "Qual a importância de como aplicar finanças e investimentos na prática?",
+      "Como funciona como aplicar finanças e investimentos na prática?"
+    ],
+    "resposta": "A aplicação de finanças e investimentos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "finanças",
+      "como",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e investimentos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "53%",
+      "indicador_2": "52%",
+      "indicador_3": "8%"
+    }
+  },
+  {
+    "id": "5ED392",
+    "topico": "Finanças",
+    "subtopicos": [
+      "planejamento",
+      "lucro"
+    ],
+    "pergunta": "Como aplicar finanças e planejamento na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e planejamento na prática?",
+      "Qual a importância de como aplicar finanças e planejamento na prática?",
+      "Como funciona como aplicar finanças e planejamento na prática?"
+    ],
+    "resposta": "A aplicação de finanças e planejamento na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "prática?",
+      "planejamento",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e planejamento em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "89%",
+      "indicador_2": "32%",
+      "indicador_3": "41%"
+    }
+  },
+  {
+    "id": "E71B12",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "processos",
+      "gestão de tarefas"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e processos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e processos na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e processos na prática?",
+      "Como funciona como aplicar fluxo de trabalho e processos na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e processos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "na",
+      "trabalho",
+      "processos"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e processos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "41%",
+      "indicador_2": "39%",
+      "indicador_3": "30%"
+    }
+  },
+  {
+    "id": "0239BC",
+    "topico": "RH",
+    "subtopicos": [
+      "retenção",
+      "liderança"
+    ],
+    "pergunta": "Como aplicar rh e retenção na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e retenção na prática?",
+      "Qual a importância de como aplicar rh e retenção na prática?",
+      "Como funciona como aplicar rh e retenção na prática?"
+    ],
+    "resposta": "A aplicação de rh e retenção na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "como",
+      "aplicar",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e retenção em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "28%",
+      "indicador_2": "46%",
+      "indicador_3": "6%"
+    }
+  },
+  {
+    "id": "AAF604",
+    "topico": "TI",
+    "subtopicos": [
+      "dados",
+      "infraestrutura"
+    ],
+    "pergunta": "Como aplicar ti e dados na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar ti e dados na prática?",
+      "Qual a importância de como aplicar ti e dados na prática?",
+      "Como funciona como aplicar ti e dados na prática?"
+    ],
+    "resposta": "A aplicação de ti e dados na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "dados",
+      "na",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos ti e dados em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "55%",
+      "indicador_2": "58%",
+      "indicador_3": "33%"
+    }
+  },
+  {
+    "id": "D8C428",
+    "topico": "ERP",
+    "subtopicos": [
+      "estoque",
+      "projetos"
+    ],
+    "pergunta": "Como aplicar erp e estoque na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar erp e estoque na prática?",
+      "Qual a importância de como aplicar erp e estoque na prática?",
+      "Como funciona como aplicar erp e estoque na prática?"
+    ],
+    "resposta": "A aplicação de erp e estoque na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "erp",
+      "e",
+      "estoque"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos erp e estoque em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "44%",
+      "indicador_2": "65%",
+      "indicador_3": "34%"
+    }
+  },
+  {
+    "id": "6259E4",
+    "topico": "Finanças",
+    "subtopicos": [
+      "planejamento",
+      "custo"
+    ],
+    "pergunta": "Como aplicar finanças e planejamento na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e planejamento na prática?",
+      "Qual a importância de como aplicar finanças e planejamento na prática?",
+      "Como funciona como aplicar finanças e planejamento na prática?"
+    ],
+    "resposta": "A aplicação de finanças e planejamento na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "e",
+      "aplicar",
+      "planejamento"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e planejamento em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "53%",
+      "indicador_2": "70%",
+      "indicador_3": "35%"
+    }
+  },
+  {
+    "id": "4036AB",
+    "topico": "Marketing",
+    "subtopicos": [
+      "campanhas",
+      "estratégia"
+    ],
+    "pergunta": "Como aplicar marketing e campanhas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e campanhas na prática?",
+      "Qual a importância de como aplicar marketing e campanhas na prática?",
+      "Como funciona como aplicar marketing e campanhas na prática?"
+    ],
+    "resposta": "A aplicação de marketing e campanhas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "campanhas",
+      "como",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e campanhas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "36%",
+      "indicador_2": "10%",
+      "indicador_3": "48%"
+    }
+  },
+  {
+    "id": "A5A593",
+    "topico": "TI",
+    "subtopicos": [
+      "infraestrutura",
+      "dados"
+    ],
+    "pergunta": "Como aplicar ti e infraestrutura na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar ti e infraestrutura na prática?",
+      "Qual a importância de como aplicar ti e infraestrutura na prática?",
+      "Como funciona como aplicar ti e infraestrutura na prática?"
+    ],
+    "resposta": "A aplicação de ti e infraestrutura na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "ti",
+      "como",
+      "prática?"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos ti e infraestrutura em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "58%",
+      "indicador_2": "70%",
+      "indicador_3": "35%"
+    }
+  },
+  {
+    "id": "97FAB2",
+    "topico": "Finanças",
+    "subtopicos": [
+      "investimentos",
+      "lucro"
+    ],
+    "pergunta": "Como aplicar finanças e investimentos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e investimentos na prática?",
+      "Qual a importância de como aplicar finanças e investimentos na prática?",
+      "Como funciona como aplicar finanças e investimentos na prática?"
+    ],
+    "resposta": "A aplicação de finanças e investimentos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "e",
+      "finanças",
+      "como"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e investimentos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "74%",
+      "indicador_2": "22%",
+      "indicador_3": "46%"
+    }
+  },
+  {
+    "id": "EA21AE",
+    "topico": "Finanças",
+    "subtopicos": [
+      "indicadores",
+      "lucro"
+    ],
+    "pergunta": "Como aplicar finanças e indicadores na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e indicadores na prática?",
+      "Qual a importância de como aplicar finanças e indicadores na prática?",
+      "Como funciona como aplicar finanças e indicadores na prática?"
+    ],
+    "resposta": "A aplicação de finanças e indicadores na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "finanças",
+      "e",
+      "aplicar"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e indicadores em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "61%",
+      "indicador_2": "33%",
+      "indicador_3": "27%"
+    }
+  },
+  {
+    "id": "9B38D8",
+    "topico": "Marketing",
+    "subtopicos": [
+      "mídias sociais",
+      "conversão"
+    ],
+    "pergunta": "Como aplicar marketing e mídias sociais na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e mídias sociais na prática?",
+      "Qual a importância de como aplicar marketing e mídias sociais na prática?",
+      "Como funciona como aplicar marketing e mídias sociais na prática?"
+    ],
+    "resposta": "A aplicação de marketing e mídias sociais na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "na",
+      "aplicar",
+      "mídias"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e mídias sociais em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "29%",
+      "indicador_2": "67%",
+      "indicador_3": "45%"
+    }
+  },
+  {
+    "id": "FCD8E8",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "gestão de tarefas",
+      "automação"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e gestão de tarefas na prática?",
+      "Como funciona como aplicar fluxo de trabalho e gestão de tarefas na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e gestão de tarefas na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "gestão",
+      "como",
+      "na"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e gestão de tarefas em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "22%",
+      "indicador_2": "60%",
+      "indicador_3": "11%"
+    }
+  },
+  {
+    "id": "98CA60",
+    "topico": "Marketing",
+    "subtopicos": [
+      "estratégia",
+      "branding"
+    ],
+    "pergunta": "Como aplicar marketing e estratégia na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e estratégia na prática?",
+      "Qual a importância de como aplicar marketing e estratégia na prática?",
+      "Como funciona como aplicar marketing e estratégia na prática?"
+    ],
+    "resposta": "A aplicação de marketing e estratégia na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "marketing",
+      "prática?",
+      "estratégia"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e estratégia em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "74%",
+      "indicador_2": "64%",
+      "indicador_3": "42%"
+    }
+  },
+  {
+    "id": "B83387",
+    "topico": "Finanças",
+    "subtopicos": [
+      "investimentos",
+      "lucro"
+    ],
+    "pergunta": "Como aplicar finanças e investimentos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar finanças e investimentos na prática?",
+      "Qual a importância de como aplicar finanças e investimentos na prática?",
+      "Como funciona como aplicar finanças e investimentos na prática?"
+    ],
+    "resposta": "A aplicação de finanças e investimentos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "investimentos",
+      "aplicar",
+      "finanças"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos finanças e investimentos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "27%",
+      "indicador_2": "23%",
+      "indicador_3": "55%"
+    }
+  },
+  {
+    "id": "A2350A",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "eficiência",
+      "processos"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e eficiência na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e eficiência na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e eficiência na prática?",
+      "Como funciona como aplicar fluxo de trabalho e eficiência na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e eficiência na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "trabalho",
+      "aplicar",
+      "de"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e eficiência em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "31%",
+      "indicador_2": "40%",
+      "indicador_3": "54%"
+    }
+  },
+  {
+    "id": "F785A7",
+    "topico": "Fluxo de Trabalho",
+    "subtopicos": [
+      "processos",
+      "gestão de tarefas"
+    ],
+    "pergunta": "Como aplicar fluxo de trabalho e processos na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar fluxo de trabalho e processos na prática?",
+      "Qual a importância de como aplicar fluxo de trabalho e processos na prática?",
+      "Como funciona como aplicar fluxo de trabalho e processos na prática?"
+    ],
+    "resposta": "A aplicação de fluxo de trabalho e processos na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "trabalho",
+      "fluxo",
+      "e"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos fluxo de trabalho e processos em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "57%",
+      "indicador_2": "29%",
+      "indicador_3": "12%"
+    }
+  },
+  {
+    "id": "7794E7",
+    "topico": "Marketing",
+    "subtopicos": [
+      "estratégia",
+      "mídias sociais"
+    ],
+    "pergunta": "Como aplicar marketing e estratégia na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar marketing e estratégia na prática?",
+      "Qual a importância de como aplicar marketing e estratégia na prática?",
+      "Como funciona como aplicar marketing e estratégia na prática?"
+    ],
+    "resposta": "A aplicação de marketing e estratégia na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "intermediário",
+    "palavras_chave": [
+      "marketing",
+      "prática?",
+      "aplicar"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos marketing e estratégia em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "32%",
+      "indicador_2": "31%",
+      "indicador_3": "41%"
+    }
+  },
+  {
+    "id": "153ABC",
+    "topico": "RH",
+    "subtopicos": [
+      "retenção",
+      "onboarding"
+    ],
+    "pergunta": "Como aplicar rh e retenção na prática?",
+    "pergunta_variantes": [
+      "Defina como aplicar rh e retenção na prática?",
+      "Qual a importância de como aplicar rh e retenção na prática?",
+      "Como funciona como aplicar rh e retenção na prática?"
+    ],
+    "resposta": "A aplicação de rh e retenção na prática envolve planejamento estratégico, capacitação de equipes e uso de ferramentas adequadas para o cenário da empresa.",
+    "dificuldade": "básico",
+    "palavras_chave": [
+      "como",
+      "rh",
+      "retenção"
+    ],
+    "exemplo_pratico": "Exemplo: Aplicamos rh e retenção em uma equipe piloto durante 3 meses.",
+    "estatisticas": {
+      "indicador_1": "22%",
+      "indicador_2": "22%",
+      "indicador_3": "26%"
+    }
+  }
+]

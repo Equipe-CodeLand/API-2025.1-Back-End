@@ -113,6 +113,91 @@ export default class AgenteController {
         }
     }
 
+
+    static async atualizarAgente(agenteId: number, agenteData: any): Promise<any> {
+        const { setor, assunto, documento, usuariosSelecionados } = agenteData;
+        
+        // Query para atualizar o agente
+        const queryUpdateAgente = 'UPDATE agentes SET setor = ?, assunto = ?, documento = ? WHERE id = ?';
+        const values = [setor, assunto, documento, agenteId];
+    
+        return new Promise<any>(async (resolve, reject) => {
+            try {
+                // Iniciar uma transação para garantir atomicidade
+                await new Promise<void>((resolve, reject) => {
+                    db.query('START TRANSACTION', (err) => {
+                        if (err) return reject(err);
+                        resolve();
+                    });
+                });
+    
+                // 1. Atualizar os dados do agente
+                await new Promise<void>((resolve, reject) => {
+                    db.query(queryUpdateAgente, values, (err, result) => {
+                        if (err) return reject(err);
+                        if ((result as any).affectedRows === 0) {
+                            return reject(new Error('Nenhum agente encontrado com o ID fornecido'));
+                        }
+                        resolve();
+                    });
+                });
+    
+                // 2. Se foram fornecidos usuários selecionados, atualizar as associações
+                if (usuariosSelecionados && Array.isArray(usuariosSelecionados)) {
+                    // Primeiro, atualizar todos os usuários para selecionado = false
+                    await new Promise<void>((resolve, reject) => {
+                        const queryResetSelecionados = 'UPDATE agente_usuario SET selecionado = false WHERE agente_id = ?';
+                        db.query(queryResetSelecionados, [agenteId], (err) => {
+                            if (err) return reject(err);
+                            resolve();
+                        });
+                    });
+    
+                    // Depois, atualizar apenas os usuários selecionados para selecionado = true
+                    if (usuariosSelecionados.length > 0) {
+                        await new Promise<void>((resolve, reject) => {
+                            const queryUpdateSelecionados = `
+                                UPDATE agente_usuario 
+                                SET selecionado = true 
+                                WHERE agente_id = ? AND usuario_id IN (?)
+                            `;
+                            db.query(queryUpdateSelecionados, [agenteId, usuariosSelecionados], (err) => {
+                                if (err) return reject(err);
+                                resolve();
+                            });
+                        });
+                    }
+                }
+    
+                // Commit da transação
+                await new Promise<void>((resolve, reject) => {
+                    db.query('COMMIT', (err) => {
+                        if (err) return reject(err);
+                        resolve();
+                    });
+                });
+    
+                resolve({
+                    success: true,
+                    message: 'Agente atualizado com sucesso'
+                });
+    
+            } catch (error) {
+                // Rollback em caso de erro
+                await new Promise<void>((resolve) => {
+                    db.query('ROLLBACK', () => resolve());
+                });
+    
+                console.error('Erro ao atualizar agente:', error);
+                reject({
+                    success: false,
+                    message: 'Erro ao atualizar agente',
+                    error: error instanceof Error ? error.message : error
+                });
+            }
+        });
+    }
+
     static async deletarAgente(agenteId: number): Promise<any> {
         // Primeiro, deletar todas as associações do agente com usuários
         const queryDeleteAssociacoes = 'DELETE FROM agente_usuario WHERE agente_id = ?';
