@@ -129,7 +129,7 @@ export default class UsuarioController {
                     console.error('Erro ao atualizar status do usuário:', err);
                     reject({ success: false, message: 'Erro ao atualizar status', error: err });
                 } else {
-                    resolve({ success: true, message: `Usuário ${ativo ? 'ativado' : 'desativado'} com sucesso.` });
+                    resolve({ success: true, message: `Usuário ${ativo ? 'reativado' : 'inativo'} com sucesso!` });
                 }
             });
         });

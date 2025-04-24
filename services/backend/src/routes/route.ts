@@ -5,6 +5,7 @@ import { verificarAdmin } from '../middlewares/verificarAdmin';
 import Autenticacao from '../controller/loginController';
 import PermissaoController from '../controller/permissaoController';
 import UsuarioController from '../controller/usuarioController';
+import { Authenticate } from '../middlewares/verificaAutenticacao';
 
 const router = Router();
 
@@ -45,9 +46,15 @@ router.post('/cadastro/usuario', verificarAdmin, async (req: Request, res: Respo
 });
 
 // Ativar/desativar os usuarios
-router.put('/usuarios/:id/status', async (req, res) => {
+router.put('/usuarios/:id/status', Authenticate, async (req, res) => {
     const { id } = req.params;
     const { ativo } = req.body;
+    const usuarioLogadoId = (req as any).usuarioLogadoId;
+
+    if (Number(id) === usuarioLogadoId) {
+        res.status(403).json({ message: 'Você não pode se inativar.' });
+        return; 
+    }
 
     try {
         const result = await UsuarioController.atualizarStatusUsuario(Number(id), ativo);
