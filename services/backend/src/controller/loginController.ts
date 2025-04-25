@@ -2,6 +2,8 @@ import { Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
 import pool from '../config/auth';
 import { Usuario } from '../interfaces/usuario';
+import bcrypt from 'bcrypt';
+
 
 export default new class Autenticacao {
     public async login(req: Request, res: Response): Promise<void> {
