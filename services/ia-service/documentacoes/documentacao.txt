@@ -1,0 +1,150 @@
+# DOCUMENTAÇÃO COMPLETA - FLUXO INTERNO DE DADOS DA EMPRESA
+
+## 1. VISÃO GERAL DO SISTEMA
+Banco de dados "empresa" para gestão de recursos humanos e folha de pagamento
+- Última atualização: 15/11/2023
+- Total de registros: 40 funcionários
+- Faixa salarial: R$4.300,00 a R$13.500,00
+
+## 2. ESTRUTURA DO BANCO DE DADOS
+
+### 2.1 TABELA PRINCIPAL: funcionarios
+| Coluna            | Tipo         | Restrições       | Descrição                     |
+|-------------------|--------------|------------------|-------------------------------|
+| id                | INT          | AUTO_INCREMENT   | Chave primária                |
+| nome              | VARCHAR(100) | NOT NULL         | Nome completo do funcionário  |
+| cargo             | VARCHAR(50)  | NOT NULL         | Posição na empresa            |
+| salario           | DECIMAL(10,2)| NOT NULL         | Remuneração mensal            |
+| data_contratacao  | DATE         | NOT NULL         | Data de admissão              |
+
+### 2.2 ÍNDICES
+- Índice primário: id (clusterizado)
+- Índices implícitos: campos NOT NULL
+
+## 3. FLUXOS DE DADOS PRINCIPAIS
+
+### 3.1 PROCESSO DE ADMISSÃO
+1. Inserção na tabela funcionarios
+   - Campos obrigatórios: todos
+   - Validações: 
+     * Nome completo
+     * Salário ≥ salário mínimo
+     * Data contratação ≤ data atual
+
+2. Dados derivados:
+   - Tempo de empresa: DATEDIFF(NOW(), data_contratacao)
+   - Faixa salarial: CASE WHEN salario > 10000 THEN 'Sênior'...
+
+### 3.2 ATUALIZAÇÃO CADASTRAL
+Fluxo para alterações:
+1. Atualização de cargo
+2. Ajuste salarial
+3. Correção de dados
+
+Regras:
+- Histórico deve ser mantido
+- Alterações salariais requerem aprovação
+
+### 3.3 DEMISSÃO
+Processo:
+1. Backup dos dados
+2. Remoção lógica (não física)
+3. Arquivo morto
+
+## 4. CONSULTAS E RELATÓRIOS ESSENCIAIS
+
+### 4.1 QUERIES FREQUENTES
+-- Folha pagamento mensal
+SELECT SUM(salario) AS total_folha FROM funcionarios;
+
+-- Tempo médio de empresa
+SELECT AVG(DATEDIFF(NOW(), data_contratacao)/365) AS anos_media 
+FROM funcionarios;
+
+-- Distribuição por cargo
+SELECT cargo, COUNT(*) AS quantidade
+FROM funcionarios
+GROUP BY cargo
+ORDER BY quantidade DESC;
+
+### 4.2 RELATÓRIOS PROGRAMADOS
+1. Mensal:
+   - Custo total com pessoal
+   - Movimentação (admissões/demissões)
+
+2. Anual:
+   - Evolução salarial
+   - Turnover
+   - Distribuição por faixa salarial
+
+## 5. INTEGRAÇÕES
+
+### 5.1 SISTEMAS CONECTADOS
+1. RH - Importação de novos contratados
+2. Financeiro - Exportação para folha de pagamento
+3. BI - Análise de dados gerenciais
+
+### 5.2 FORMATOS DE INTERCÂMBIO
+- CSV para sistemas legados
+- JSON para APIs modernas
+- XML para integração com governo
+
+## 6. SEGURANÇA E ACESSO
+
+### 6.1 PERFIS DE ACESSO
+| Perfil           | Permissões                          |
+|------------------|-------------------------------------|
+| RH               | CRUD completo                       |
+| Gerência         | Leitura + filtros                   |
+| Financeiro       | Leitura + exportação                |
+| TI               | Manutenção estrutura                |
+
+### 6.2 POLÍTICAS
+- Dados pessoais: LGPD compliant
+- Backup diário incremental
+- Retenção: 5 anos após desligamento
+
+## 7. MANUTENÇÃO
+
+### 7.1 ROTINAS
+1. Diárias:
+   - Verificação de integridade
+   - Backup
+
+2. Mensais:
+   - Otimização de índices
+   - Atualização estatísticas
+
+### 7.2 MONITORAMENTO
+Alertas configurados para:
+- Tentativas de acesso não autorizado
+- Consultas demoradas (>5s)
+- Espaço em disco <20%
+
+## 8. MODELO FUTURO
+
+### 8.1 MELHORIAS PLANEJADAS
+1. Histórico de cargos e salários
+2. Integração com sistema de pontos
+3. Divisão por departamentos
+
+### 8.2 MIGRAÇÃO
+Plano para evolução:
+1. Adicionar tabela departamentos
+2. Criar relacionamentos
+3. Implementar versionamento
+
+## 9. ANEXOS
+
+### 9.1 DICIONÁRIO DE DADOS
+Termos técnicos:
+- CRT: Cargo, Remuneração, Tempo
+- FPE: Folha de Pagamento Eletrônica
+
+### 9.2 CONTATOS
+Responsável pelo banco:
+- Nome: [Seu Nome]
+- Email: [seu.email@empresa.com]
+- Telefone: [XX] XXXX-XXXX
+
+// FIM DA DOCUMENTAÇÃO //

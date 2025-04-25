@@ -1,5 +1,4 @@
 import json
-from dotenv import load_dotenv
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
 
