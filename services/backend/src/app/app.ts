@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
-import routes from '../routes/route'; // Ajuste o caminho conforme necessário
+import routes from '../routes/route'; 
 import db from '../config/db'; // Importa a instância do banco de dados
 
 const app = express();
