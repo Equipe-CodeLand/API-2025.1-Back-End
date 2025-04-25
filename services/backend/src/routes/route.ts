@@ -23,9 +23,6 @@ const storage = multer.diskStorage({
     }
 });
 
-// Rota para buscar usuário logado
-router.get('/usuarios/perfil', UsuarioController.buscarUsuarioLogado);
-
 // cadastro do usuário
 router.post('/cadastro/usuario', verificarAdmin, async (req: Request, res: Response) => {
     const usuario = req.body;

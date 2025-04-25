@@ -135,32 +135,4 @@ export default class UsuarioController {
         });
     }
 
-    static async buscarUsuarioLogado(req: Request, res: Response): Promise<void> {
-        try {
-            // Pega o token do cabeçalho Authorization
-            const token = req.headers['authorization']?.split(' ')[1];
-            if (!token) {
-                res.status(401).json({ success: false, message: 'Token não fornecido' });
-                return;
-            }
-
-            // Decodifica o token para obter o ID do usuário
-            const decoded: any = jwt.verify(token, process.env.JWT_SECRET as string);
-
-            // Busca o usuário pelo ID decodificado
-            const { data } = await UsuarioController.listarUsuarioPorId(decoded.id);
-
-            if (!data) {
-                res.status(404).json({ success: false, message: 'Usuário não encontrado' });
-                return;
-            }
-
-            res.json({ success: true, data });
-        } catch (error) {
-            console.error('Erro ao buscar usuário logado:', error);
-            res.status(500).json({ success: false, message: 'Erro ao buscar usuário logado' });
-        }
-    }
-
-
 }
