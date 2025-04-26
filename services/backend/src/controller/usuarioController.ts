@@ -135,4 +135,81 @@ export default class UsuarioController {
         });
     }
 
+    static async editarUsuario(id: number, dadosAtualizados: any): Promise<any> {
+        try {
+            const usuarioExistente = await new Promise<RowDataPacket[]>((resolve, reject) => {
+                db.query('SELECT * FROM usuario WHERE id = ?', [id], (err, result) => {
+                    if (err) return reject(err);
+                    resolve(result as RowDataPacket[]);
+                });
+            });
+    
+            if (usuarioExistente.length === 0) {
+                return { success: false, message: 'Usuário não encontrado' };
+            }
+    
+            // Verificar se o novo e-mail já está sendo usado por OUTRO usuário
+            if (dadosAtualizados.email) {
+                const queryEmail = 'SELECT id FROM usuario WHERE email = ?';
+                const resultadoEmail = await new Promise<RowDataPacket[]>((resolve, reject) => {
+                    db.query(queryEmail, [dadosAtualizados.email], (err, results) => {
+                        if (err) return reject(err);
+                        resolve(results as RowDataPacket[]);
+                    });
+                });
+    
+                if (resultadoEmail.length > 0 && resultadoEmail[0].id !== id) {
+                    return {
+                        success: false,
+                        message: 'E-mail já cadastrado.'
+                    };
+                }
+            }
+    
+            const campos: string[] = [];
+            const valores: any[] = [];
+    
+            if (dadosAtualizados.nome) {
+                campos.push('nome = ?');
+                valores.push(dadosAtualizados.nome);
+            }
+    
+            if (dadosAtualizados.email) {
+                campos.push('email = ?');
+                valores.push(dadosAtualizados.email);
+            }
+    
+            if (dadosAtualizados.senha) {
+                const senhaHash = await bcrypt.hash(dadosAtualizados.senha, 10);
+                campos.push('senha = ?');
+                valores.push(senhaHash);
+            }
+    
+            if (dadosAtualizados.role) {
+                campos.push('role = ?');
+                valores.push(dadosAtualizados.role);
+            }
+    
+            if (campos.length === 0) {
+                return { success: false, message: 'Nenhum dado para atualizar' };
+            }
+    
+            const queryUpdate = `UPDATE usuario SET ${campos.join(', ')} WHERE id = ?`;
+            valores.push(id);
+    
+            await new Promise<void>((resolve, reject) => {
+                db.query(queryUpdate, valores, (err) => {
+                    if (err) return reject(err);
+                    resolve();
+                });
+            });
+    
+            return { success: true, message: 'Usuário atualizado com sucesso' };
+    
+        } catch (error) {
+            console.error('Erro ao atualizar usuário:', error);
+            return { success: false, message: 'Erro ao atualizar usuário', error };
+        }
+    }
+    
 }

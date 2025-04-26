@@ -68,9 +68,9 @@ router.get('/usuarios', async (req: Request, res: Response) => {
         const response = await UsuarioController.listarUsuarios();
 
         if (response.success) {
-            res.status(200).json(response.data); 
+            res.status(200).json(response.data);
         } else {
-            res.status(500).json({ error: response.message }); 
+            res.status(500).json({ error: response.message });
         }
     } catch (error) {
         console.error('Erro ao buscar usuarios:', error);
@@ -92,9 +92,28 @@ router.get('/usuarios/:id', async (req: Request, res: Response) => {
         }
     } catch (error) {
         console.error('Erro ao buscar usuário:', error);
-        res.status(500).json({ error: 'Erro ao buscar usuário' }); 
+        res.status(500).json({ error: 'Erro ao buscar usuário' });
     }
 });
+
+router.put('/atualizar/usuarios/:id', async (req: Request, res: Response) => {
+    const { id } = req.params
+
+    const dadosAtualizados = req.body
+
+    try {
+        const response = await UsuarioController.editarUsuario(Number(id), dadosAtualizados)
+
+        if (response.success) {
+            res.status(200).json(response.message);
+        } else {
+            res.status(404).json({ error: response.message })
+        }
+    } catch (error) {
+        console.error('Erro ao buscar usuário:', error);
+        res.status(500).json({ error: 'Erro ao buscar usuário' });
+    }
+})
 
 const upload = multer({ storage });
 
@@ -130,9 +149,9 @@ router.get('/agentes', async (req: Request, res: Response) => {
         const response = await AgenteController.listarAgentes();
 
         if (response.success) {
-            res.status(200).json(response.data); 
+            res.status(200).json(response.data);
         } else {
-            res.status(500).json({ error: response.message }); 
+            res.status(500).json({ error: response.message });
         }
     } catch (error) {
         console.error('Erro ao buscar agentes:', error);
@@ -168,7 +187,7 @@ router.put('/agentes/:usuarioId/desabilitar', verificarAdmin, async (req: Reques
         if (response.success) {
             res.status(200).json(response);
         } else {
-            res.status(500).json({ error: response.message }); 
+            res.status(500).json({ error: response.message });
         }
     } catch (error) {
         console.error('Erro ao desabilitar permissão de agente:', error);
@@ -186,7 +205,7 @@ router.put('/agentes/:usuarioId/habilitar', verificarAdmin, async (req: Request,
         if (response.success) {
             res.status(200).json(response);
         } else {
-            res.status(500).json({ error: response.message }); 
+            res.status(500).json({ error: response.message });
         }
     } catch (error) {
         console.error('Erro ao habilitar permissão de agente:', error);
