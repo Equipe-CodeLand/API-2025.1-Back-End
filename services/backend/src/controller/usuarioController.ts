@@ -167,9 +167,9 @@ export default class UsuarioController {
                 valores.push(senhaHash);
             }
     
-            if (dadosAtualizados.cargo) {
+            if (dadosAtualizados.role) {
                 campos.push('role = ?');
-                valores.push(dadosAtualizados.cargo);
+                valores.push(dadosAtualizados.role);
             }
     
             if (campos.length === 0) {
