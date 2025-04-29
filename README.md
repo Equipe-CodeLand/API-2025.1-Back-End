@@ -38,9 +38,10 @@
     /API-2025.1-Back-End/services/ia-service
 
 # Inicie o sistema:
-    pip install -r requirements.txt
+
     python -m venv venv
     .\venv\Scripts\activate
+    pip install -r requirements.txt
     uvicorn src.api:app --reload
 
 # A aplicação estará rodando no endereço http://127.0.0.1:8000
