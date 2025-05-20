@@ -224,7 +224,7 @@ export default class UsuarioController {
                     if (result.length === 0) {
                         resolve({ success: false, message: 'Agentes não encontrados' });
                     } else {
-                        resolve({ success: true, data: result[0] });
+                        resolve({ success: true, data: result });
                     }
                 }
             });

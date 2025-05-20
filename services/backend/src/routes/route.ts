@@ -27,7 +27,7 @@ const storage = multer.diskStorage({
 });
 
 // cadastro do usuário
-router.post('/cadastro/usuario', verificarAdmin, async (req: Request, res: Response) => {
+router.post('/cadastro/usuario', async (req: Request, res: Response) => {
     const usuario = req.body;
     console.log(usuario);
 
@@ -118,11 +118,11 @@ router.put('/atualizar/usuarios/:id', async (req: Request, res: Response) => {
     }
 })
 
-router.get("/usuarios/buscar/agentes/:id", async (req: Request, res: Response) => {
-    const { id } = req.params;
+router.get("/usuarios/buscar/agentes", Authenticate, async (req: Request, res: Response) => {
+    const usuarioLogadoId = (req as any).usuarioLogadoId;
 
     try {
-        const response = await UsuarioController.listarAgentesPorUsuario(Number(id));
+        const response = await UsuarioController.listarAgentesPorUsuario(Number(usuarioLogadoId));
 
         if (response.success) {
             res.status(200).json(response.data);
@@ -309,7 +309,10 @@ router.get('/chats', Authenticate, async (req: Request, res: Response) => {
 });
 
 router.post('/mensagens', Authenticate, async (req: Request, res: Response) => {
-    const { question, chat_id, usuario_id, agente_id } = req.body;
+    const { question, chat_id, agente_id } = req.body;
+    const usuario_id = (req as any).usuarioLogadoId;
+
+    console.log('recebi a msg',question, chat_id, usuario_id, agente_id )
 
     try {
         let chatIdFinal = chat_id;
@@ -333,7 +336,8 @@ router.post('/mensagens', Authenticate, async (req: Request, res: Response) => {
             chatIdFinal = chatCriado.insertedId;
         }
 
-        const msgUserAdd = await ChatController.adicionarMensagem(usuario_id, agente_id, chatIdFinal, question);
+        const msgUserAdd = await ChatController.adicionarMensagem(usuario_id, null, chatIdFinal, question);
+        console.log('mandei pro mongo')
 
         if (!msgUserAdd.success) {
             res.status(500).json({ error: 'Falha ao adicionar mensagem do usuário' });

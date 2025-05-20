@@ -2,7 +2,7 @@ import { ObjectId } from "mongodb";
 import { Mensagem } from "./mensagem";
 
 export interface Chat {
-  _id: ObjectId;
+  id: any;
   usuario_id: number;
   agente_id: number;
   data_criacao: Date;

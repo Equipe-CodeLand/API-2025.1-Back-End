@@ -16,7 +16,7 @@ export default class ChatController {
             }
 
             const novoChat: Chat = {
-                _id: id,
+                id: id,
                 usuario_id: usuario_id,
                 agente_id: agente_id,
                 data_criacao: new Date(),
@@ -48,7 +48,7 @@ export default class ChatController {
         try {
             const db = await getDb();
             const collection = db.collection<Chat>("Chats");
-            const chat = await collection.findOne({ _id: new ObjectId(id) });
+            const chat = await collection.findOne({ id: id });
 
             if (!chat) {
                 return { success: false, message: "Chat não encontrado" };
@@ -61,7 +61,7 @@ export default class ChatController {
         }
     }
 
-    static async adicionarMensagem(usuario_id:number, agente_id:number, chat_id:any, texto:string) {
+    static async adicionarMensagem(usuario_id:number|null, agente_id:number|null, chat_id:any, texto:string) {
         try {
             const db = await getDb();
             const collection = db.collection<Chat>("Chats");
@@ -75,7 +75,7 @@ export default class ChatController {
             };
 
             const result = await collection.updateOne(
-                { _id: chat_id },
+                { id: chat_id },
                 { $push: { mensagens: novaMensagem } }
             );
 
@@ -95,7 +95,7 @@ export default class ChatController {
             const db = await getDb();
             const collection = db.collection("Chats");
 
-            const result = await collection.deleteOne({ _id: new ObjectId(chatId) });
+            const result = await collection.deleteOne({ id: new ObjectId(chatId) });
 
             if (result.deletedCount === 0) {
                 return { success: false, message: "Chat não encontrado" };
