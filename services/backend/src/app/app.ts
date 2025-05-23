@@ -3,6 +3,8 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 import routes from '../routes/route'; 
 import db from '../config/db'; // Importa a instância do banco de dados
+import swaggerUi from 'swagger-ui-express';
+import swaggerDocs from '../swagger';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -28,6 +30,9 @@ app.get('/', (req, res) => {
     res.send('API funcionando!');
 });
 
+// 📌Rota Swagger
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+console.log(`📚 Swagger rodando em http://localhost:${PORT}/api-docs`)
 // 📌 Iniciar Servidor
 app.listen(PORT, () => {
     console.log(`🚀 Servidor rodando em http://localhost:${PORT}`);
