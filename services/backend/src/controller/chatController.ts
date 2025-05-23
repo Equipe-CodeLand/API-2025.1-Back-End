@@ -107,5 +107,31 @@ export default class ChatController {
             return { success: false, message: "Erro ao excluir chat", error };
         }
     }
+    
+    static async buscarHistorico({ usuario_id, chat_id }: { usuario_id?: number, chat_id?: string }) {
+    try {
+        const db = await getDb();
+        const collection = db.collection<Chat>("Chats");
+
+        if (chat_id) {
+            const chat = await collection.findOne({ id: chat_id });
+            if (!chat) {
+                return { success: false, message: "Chat não encontrado" };
+            }
+            return { success: true, data: chat.mensagens };
+        }
+
+        if (usuario_id !== undefined) {
+            const chats = await collection.find({ usuario_id }).toArray();
+            return { success: true, data: chats };
+        }
+
+        return { success: false, message: "Parâmetros insuficientes para busca" };
+    } catch (error) {
+        console.error("Erro ao buscar histórico:", error);
+        return { success: false, message: "Erro ao buscar histórico", error };
+    }
+}
+
 
 }

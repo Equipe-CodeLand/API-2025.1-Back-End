@@ -776,6 +776,58 @@ router.get('/chats/:chatId', Authenticate, async (req: Request, res: Response) =
     }
 });
 
+/**
+ * @swagger
+ * /historico/chat:
+ *   get:
+ *     summary: Busca o histórico de chats de um usuário ou as mensagens de um chat específico
+ *     tags: [Chats]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: query
+ *         name: usuario_id
+ *         schema:
+ *           type: integer
+ *         description: ID do usuário para listar todos os seus chats
+ *       - in: query
+ *         name: chat_id
+ *         schema:
+ *           type: string
+ *         description: ID do chat para listar todas as mensagens do chat
+ *     responses:
+ *       200:
+ *         description: Histórico retornado com sucesso
+ *       400:
+ *         description: Parâmetros inválidos ou ausentes
+ *       500:
+ *         description: Erro ao buscar histórico
+ */
+router.get('/historico/chat', Authenticate, async (req: Request, res: Response) => {
+    const { usuario_id, chat_id } = req.query;
+
+    if (!usuario_id && !chat_id) {
+        res.status(400).json({ error: "Informe 'usuario_id' ou 'chat_id' para buscar o histórico." });
+        return;
+    }
+
+    try {
+        const response = await ChatController.buscarHistorico({
+            usuario_id: usuario_id ? Number(usuario_id) : undefined,
+            chat_id: chat_id?.toString()
+        });
+
+        if (response.success) {
+            res.status(200).json(response.data);
+        } else {
+            res.status(404).json({ error: response.message });
+        }
+    } catch (error) {
+        console.error('Erro ao buscar histórico:', error);
+        res.status(500).json({ error: 'Erro ao buscar histórico' });
+    }
+});
+
 // Excluir chat
 /**
  * @swagger
