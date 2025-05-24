@@ -6,6 +6,7 @@ import Autenticacao from '../controller/loginController';
 import PermissaoController from '../controller/permissaoController';
 import UsuarioController from '../controller/usuarioController';
 import { Authenticate } from '../middlewares/verificaAutenticacao';
+import AcessoController from '../controller/acessoController';
 
 const router = Router();
 
@@ -60,7 +61,6 @@ router.put('/usuarios/:id/status', Authenticate, async (req, res) => {
         res.status(500).json(error);
     }
 });
-
 
 //listagem do usuário
 router.get('/usuarios', async (req: Request, res: Response) => {
@@ -254,7 +254,6 @@ router.put('/agentes/:id', verificarAdmin, upload.single('documento'), async (re
     }
 });
 
-
 // Deletar agente
 router.delete('/agentes/:id', verificarAdmin, async (req: Request, res: Response) => {
     const { id } = req.params;
@@ -271,6 +270,14 @@ router.delete('/agentes/:id', verificarAdmin, async (req: Request, res: Response
         console.error('Erro ao deletar agente:', error);
         res.status(500).json({ error: 'Erro ao deletar agente' });
     }
+});
+
+router.post('/acesso/chat', Authenticate,(req: Request, res: Response) => {
+    AcessoController.registrarAcesso(req, res);
+});
+
+router.get('/acessos', (req: Request, res: Response) => {
+    AcessoController.listarAcessos(req, res);
 });
 
 export default router;
