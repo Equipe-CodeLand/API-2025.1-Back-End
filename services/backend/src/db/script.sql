@@ -27,3 +27,10 @@ CREATE TABLE agente_usuario (
     FOREIGN KEY (agente_id) REFERENCES agentes(id) ON DELETE CASCADE,
     FOREIGN KEY (usuario_id) REFERENCES usuario(id) ON DELETE CASCADE
 );
+
+CREATE TABLE agente_acessos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    agente_nome VARCHAR(100) NOT NULL,
+    usuario_id INT NULL,
+    data_acesso TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
