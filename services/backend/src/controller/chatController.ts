@@ -4,14 +4,14 @@ import { Chat } from "../interfaces/chat";
 import { Mensagem } from "../interfaces/mensagem";
 
 export default class ChatController {
-    static async criarChat(usuario_id:number, agente_id:number, chat_id:any, question:string) {
+    static async criarChat(usuario_id: number, agente_id: number, chat_id: any, question: string) {
         try {
             const db = await getDb();
             const collection = db.collection<Chat>("Chats");
 
             let id = chat_id
 
-            if (!chat_id){
+            if (!chat_id) {
                 id = new ObjectId()
             }
 
@@ -61,7 +61,7 @@ export default class ChatController {
         }
     }
 
-    static async adicionarMensagem(usuario_id:number|null, agente_id:number|null, chat_id:any, texto:string) {
+    static async adicionarMensagem(usuario_id: number | null, agente_id: number | null, chat_id: any, texto: string) {
         try {
             const db = await getDb();
             const collection = db.collection<Chat>("Chats");
@@ -95,7 +95,17 @@ export default class ChatController {
             const db = await getDb();
             const collection = db.collection("Chats");
 
-            const result = await collection.deleteOne({ id: new ObjectId(chatId) });
+            console.log("Tentando deletar chat com ID:", chatId);
+
+            const result = await collection.deleteOne({
+                $or: [
+                    { _id: new ObjectId(chatId) }, 
+                    { id: chatId },              
+                    { id: new ObjectId(chatId) }    
+                ]
+            });
+
+            console.log("Resultado da deleção:", result);
 
             if (result.deletedCount === 0) {
                 return { success: false, message: "Chat não encontrado" };
@@ -107,31 +117,31 @@ export default class ChatController {
             return { success: false, message: "Erro ao excluir chat", error };
         }
     }
-    
+
     static async buscarHistorico({ usuario_id, chat_id }: { usuario_id?: number, chat_id?: string }) {
-    try {
-        const db = await getDb();
-        const collection = db.collection<Chat>("Chats");
+        try {
+            const db = await getDb();
+            const collection = db.collection<Chat>("Chats");
 
-        if (chat_id) {
-            const chat = await collection.findOne({ id: chat_id });
-            if (!chat) {
-                return { success: false, message: "Chat não encontrado" };
+            if (chat_id) {
+                const chat = await collection.findOne({ id: chat_id });
+                if (!chat) {
+                    return { success: false, message: "Chat não encontrado" };
+                }
+                return { success: true, data: chat.mensagens };
             }
-            return { success: true, data: chat.mensagens };
-        }
 
-        if (usuario_id !== undefined) {
-            const chats = await collection.find({ usuario_id }).toArray();
-            return { success: true, data: chats };
-        }
+            if (usuario_id !== undefined) {
+                const chats = await collection.find({ usuario_id }).toArray();
+                return { success: true, data: chats };
+            }
 
-        return { success: false, message: "Parâmetros insuficientes para busca" };
-    } catch (error) {
-        console.error("Erro ao buscar histórico:", error);
-        return { success: false, message: "Erro ao buscar histórico", error };
+            return { success: false, message: "Parâmetros insuficientes para busca" };
+        } catch (error) {
+            console.error("Erro ao buscar histórico:", error);
+            return { success: false, message: "Erro ao buscar histórico", error };
+        }
     }
-}
 
 
 }
