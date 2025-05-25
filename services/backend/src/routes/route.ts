@@ -704,7 +704,7 @@ router.post('/mensagens', Authenticate, async (req: Request, res: Response) => {
             return;
         }
 
-        const response = await fetch('http://127.0.0.1:8000/chat/', {
+        const response = await fetch('http://192.168.1.25:8000/chat/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ question, chat_id: chatIdFinal })
@@ -716,8 +716,14 @@ router.post('/mensagens', Authenticate, async (req: Request, res: Response) => {
         }
 
         const data = await response.json();
+        console.log('resposta da IA:', data);
 
-        const msgIAAdd = await ChatController.adicionarMensagem(usuario_id, agente_id, data.response, question);
+        const msgIAAdd = await ChatController.adicionarMensagem(
+            usuario_id,
+            agente_id,
+            chatIdFinal,
+            data.response
+        );          
 
         if (!msgIAAdd.success) {
             res.status(500).json({ error: 'Falha ao adicionar mensagem da IA' });
