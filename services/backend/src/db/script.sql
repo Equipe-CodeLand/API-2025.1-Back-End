@@ -31,6 +31,9 @@ CREATE TABLE agente_usuario (
 CREATE TABLE agente_acessos (
     id INT AUTO_INCREMENT PRIMARY KEY,
     agente_nome VARCHAR(100) NOT NULL,
+    agente_id INT NULL,
     usuario_id INT NULL,
-    data_acesso TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    data_acesso TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT fk_agente_acessos_agente FOREIGN KEY (agente_id) REFERENCES agentes(id) ON DELETE SET NULL
 );
+
