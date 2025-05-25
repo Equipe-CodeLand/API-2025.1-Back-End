@@ -212,4 +212,22 @@ export default class UsuarioController {
         }
     }
     
+    static async listarAgentesPorUsuario(id: number): Promise<any> {
+        const query = 'SELECT * FROM agente_usuario ag inner join agentes a on a.id = ag.agente_id WHERE ag.usuario_id = ?';
+
+        return new Promise((resolve, reject) => {
+            db.query(query, [id], (err, result: RowDataPacket[]) => {
+                if (err) {
+                    console.error('Erro ao buscar agentes:', err);
+                    reject({ success: false, message: 'Erro ao buscar agentes', error: err });
+                } else {
+                    if (result.length === 0) {
+                        resolve({ success: false, message: 'Agentes não encontrados' });
+                    } else {
+                        resolve({ success: true, data: result });
+                    }
+                }
+            });
+        });
+    }
 }
