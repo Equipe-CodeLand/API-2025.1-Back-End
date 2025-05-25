@@ -12,7 +12,7 @@ export default class ChatController {
             let id = chat_id
 
             if (!chat_id) {
-                id = new ObjectId()
+                id = new ObjectId().toString();
             }
 
             const novoChat: Chat = {
@@ -142,6 +142,25 @@ export default class ChatController {
             return { success: false, message: "Erro ao buscar histórico", error };
         }
     }
+    
+    static async listarChatsPorUsuario(usuario_id: number, agente_id?: number) {
+        try {
+            const db = await getDb();
+            const collection = db.collection<Chat>("Chats");
 
+            const filtro: any = { usuario_id };
+            if (agente_id !== undefined) {
+                filtro.agente_id = agente_id;
+            }
+
+            const chats = await collection.find(filtro).toArray();
+
+            return { success: true, data: chats };
+        } catch (error) {
+            console.error("Erro ao listar chats:", error);
+            return { success: false, message: "Erro ao listar chats" };
+        }
+    }
+    
 
 }

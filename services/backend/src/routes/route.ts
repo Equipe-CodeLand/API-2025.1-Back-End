@@ -624,8 +624,10 @@ router.delete('/agentes/:id', verificarAdmin, async (req: Request, res: Response
  *         description: Erro ao listar chats
  */
 router.get('/chats', Authenticate, async (req: Request, res: Response) => {
+    const usuario_id = (req as any).usuarioLogadoId;
+    const agente_id = req.query.agente_id ? Number(req.query.agente_id) : undefined;
     try {
-        const response = await ChatController.listarChats();
+        const response = await ChatController.listarChatsPorUsuario(usuario_id, agente_id);
         if (response.success) {
             res.status(200).json(response.data);
         } else {
@@ -704,7 +706,7 @@ router.post('/mensagens', Authenticate, async (req: Request, res: Response) => {
             return;
         }
 
-        const response = await fetch('http://192.168.1.25:8000/chat/', {
+        const response = await fetch('http://192.168.1.29:8000/chat/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ question, chat_id: chatIdFinal })
@@ -873,12 +875,43 @@ router.delete('/chats/:chatId', Authenticate, async (req: Request, res: Response
     }
 });
 
-router.post('/acesso/chat', Authenticate,(req: Request, res: Response) => {
-    AcessoController.registrarAcesso(req, res);
+router.post('/acesso/chat', Authenticate, async (req: Request, res: Response) => {
+    const { agente_id, agente_nome } = req.body;
+    const usuario_id = (req as any).usuarioLogadoId;
+
+    try {
+        const response = await AcessoController.registrarAcesso({
+            usuario_id,
+            agente_id,
+            agente_nome
+        });
+
+        if (response.success) {
+            res.status(201).json(response.message);
+        } else {
+            res.status(500).json({ error: response.message });
+        }
+    } catch (error) {
+        console.error('Erro ao registrar acesso:', error);
+        res.status(500).json({ error: 'Erro ao registrar acesso' });
+    }
 });
 
-router.get('/acessos', (req: Request, res: Response) => {
-    AcessoController.listarAcessos(req, res);
+
+router.get('/acessos', async (req: Request, res: Response) => {
+    try {
+        const response = await AcessoController.listarAcessos();
+
+        if (response.success) {
+            res.status(200).json(response.data);
+        } else {
+            res.status(500).json({ error: response.message });
+        }
+    } catch (error) {
+        console.error('Erro ao listar acessos:', error);
+        res.status(500).json({ error: 'Erro interno no servidor' });
+    }
 });
+  
 
 export default router;
